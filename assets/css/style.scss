@@ -1,0 +1,9 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* Custom Header Gradient */
+.page-header {
+  background-image: linear-gradient(135deg, #b30000, #ff1a1a);
+}
