@@ -4,28 +4,12 @@
 @import "{{ site.theme }}";
 
 /* =========================
-   GLOBAL TYPOGRAPHY
+   BRAND COLORS
 ========================= */
 
-body {
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-  line-height: 1.6;
-}
-
-.main-content h1 {
-  font-size: 2.4rem;
-  margin-top: 2rem;
-}
-
-.main-content h2 {
-  margin-top: 3rem;
-  font-size: 1.8rem;
-}
-
-.main-content h3 {
-  margin-top: 2rem;
-  font-size: 1.3rem;
-}
+$brand-red: #cc0000;
+$brand-dark: #111111;
+$brand-light-gray: #f5f5f5;
 
 /* =========================
    HEADER GRADIENT
@@ -36,12 +20,27 @@ body {
 }
 
 /* =========================
-   BUTTON STYLING
+   REMOVE GREEN ACCENTS
 ========================= */
 
-.main-content a {
-  text-decoration: none;
+a {
+  color: $brand-red !important;
 }
+
+a:hover {
+  color: #990000 !important;
+}
+
+.main-content h1,
+.main-content h2,
+.main-content h3,
+.main-content h4 {
+  color: $brand-dark !important;
+}
+
+/* =========================
+   BUTTONS
+========================= */
 
 .main-content a[href^="#"],
 .main-content a[href*="http"] {
@@ -50,8 +49,8 @@ body {
   margin: 8px 8px 8px 0;
   border-radius: 6px;
   font-weight: 600;
-  background: #cc0000;
-  color: #ffffff;
+  background: $brand-red;
+  color: #ffffff !important;
   transition: 0.2s ease-in-out;
 }
 
@@ -62,98 +61,58 @@ body {
 }
 
 /* =========================
-   SECTION SPACING
+   SECTION CARD STYLE
 ========================= */
 
-.main-content > * {
-  margin-bottom: 1.5rem;
-}
-
-/* =========================
-   CASE STUDY CARD STYLE
-========================= */
-
-.main-content h3 + ul,
-.main-content h3 + p {
-  background: #f8f8f8;
+.main-content h3 + p,
+.main-content h3 + ul {
+  background: $brand-light-gray;
   padding: 20px;
   border-radius: 8px;
-  border-left: 4px solid #cc0000;
+  border-left: 4px solid $brand-red;
 }
 
 /* =========================
-   TESTIMONIAL BLOCKS
+   TESTIMONIALS
 ========================= */
 
 blockquote {
-  background: #111111;
+  background: $brand-dark;
   color: #ffffff;
   padding: 20px;
-  border-left: 5px solid #cc0000;
+  border-left: 5px solid $brand-red;
   border-radius: 6px;
   margin: 2rem 0;
-  font-style: italic;
-}
-
-blockquote strong {
-  color: #ff4d4d;
 }
 
 /* =========================
-   PROCESS NUMBER STYLING
+   PROCESS NUMBERS
 ========================= */
 
 .main-content ol {
-  counter-reset: process-counter;
   list-style: none;
   padding-left: 0;
+  counter-reset: step-counter;
 }
 
 .main-content ol li {
-  counter-increment: process-counter;
+  counter-increment: step-counter;
   margin-bottom: 1.2rem;
   padding-left: 2.5rem;
   position: relative;
 }
 
 .main-content ol li::before {
-  content: counter(process-counter);
+  content: counter(step-counter);
   position: absolute;
   left: 0;
   top: 0;
   width: 28px;
   height: 28px;
-  background: #cc0000;
+  background: $brand-red;
   color: #ffffff;
   border-radius: 50%;
   text-align: center;
   line-height: 28px;
   font-weight: bold;
-}
-
-/* =========================
-   FOOTER CLEANUP
-========================= */
-
-.site-footer {
-  font-size: 0.85rem;
-  opacity: 0.7;
-}
-
-/* =========================
-   RESPONSIVE TWEAKS
-========================= */
-
-@media (max-width: 768px) {
-  .main-content h1 {
-    font-size: 2rem;
-  }
-
-  .main-content h2 {
-    font-size: 1.5rem;
-  }
-
-  .page-header {
-    padding: 3rem 1rem;
-  }
 }
