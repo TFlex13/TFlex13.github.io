@@ -3,12 +3,17 @@ layout: default
 title: Home
 ---
 
-# TFlex13 Cars for Sale 🚗
+# Redline Marketing 🚀
 
-Welcome! This site is now running the **Cayman** theme on GitHub Pages.
+We help brands move faster, look sharper, and convert better.
 
-## Current Listings
-- Coming soon…
+## What we do
+- Strategy & positioning
+- Creative + content
+- Web & landing pages
+- Advertising & campaign execution
+- Analytics & optimization
 
 ## Contact
-- Add your preferred contact method here.
+Email: you@redlinemarketing.com  
+(Replace this with your real contact info)
