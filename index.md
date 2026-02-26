@@ -3,17 +3,22 @@ layout: default
 title: Home
 ---
 
-# Redline Marketing 🚀
+# Welcome to Redline Marketing 🚀
 
-We help brands move faster, look sharper, and convert better.
+We help brands accelerate growth through strategic marketing, creative execution, and performance optimization.
 
-## What we do
-- Strategy & positioning
-- Creative + content
-- Web & landing pages
-- Advertising & campaign execution
-- Analytics & optimization
+## What We Do
 
-## Contact
-Email: you@redlinemarketing.com  
-(Replace this with your real contact info)
+- Brand Strategy & Positioning  
+- Digital Marketing Campaigns  
+- Website & Landing Page Development  
+- Paid Advertising Management  
+- Data & Performance Analytics  
+
+## Why Redline?
+
+Because marketing should move fast, look sharp, and convert consistently.
+
+## Get in Touch
+
+Contact us to discuss your next project.
