@@ -1,5 +1,6 @@
 ---
 layout: default
+title: Redline Marketing
 ---
 
 # Welcome to Redline Marketing 🚀
