@@ -6,50 +6,62 @@
 /* =========================
    BRAND COLORS
 ========================= */
-
 $brand-red: #cc0000;
+$brand-red-dark: #990000;
 $brand-dark: #111111;
 $brand-light-gray: #f5f5f5;
 
 /* =========================
-   HEADER GRADIENT
+   HEADER (gradient + left logo)
 ========================= */
 
+/* Kill the theme’s text title/tagline in the header */
+.page-header .project-name,
+.page-header .project-tagline {
+  display: none !important;
+}
+
+/* Your header background + spacing */
+.page-header {
+  background-image: linear-gradient(135deg, #cc0000, #000000) !important;
+  text-align: left !important;
+  padding: 2.25rem 2.5rem !important;  /* adjust as you like */
+}
+
+/* Inject the logo into the header */
 .page-header::before {
   content: "";
   display: block;
-  width: 220px;
-  height: 220px;
-  margin: 0 0 18px 0; /* remove auto centering */
+  width: 160px;        /* logo size */
+  height: 160px;       /* logo size */
+  margin: 0;           /* left aligned */
   background-image: url("/assets/images/RedLine_Marketing_logo.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: left center;
 }
 
-/* Add logo above the tagline */
-.page-header::before {
-  content: "";
-  display: block;
-  width: 220px;
-  height: 220px;
-  margin: 0 auto 18px auto;
-  background-image: url("/assets/images/RedLine_Marketing_logo.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
+/* Optional: slightly smaller on mobile */
+@media (max-width: 768px) {
+  .page-header {
+    padding: 1.75rem 1.25rem !important;
+  }
+
+  .page-header::before {
+    width: 120px;
+    height: 120px;
+  }
 }
 
 /* =========================
    REMOVE GREEN ACCENTS
 ========================= */
-
 a {
   color: $brand-red !important;
 }
 
 a:hover {
-  color: #990000 !important;
+  color: $brand-red-dark !important;
 }
 
 .main-content h1,
@@ -60,31 +72,42 @@ a:hover {
 }
 
 /* =========================
-   BUTTONS
+   BUTTONS (only CTA links)
 ========================= */
-
-.main-content a[href^="#"],
-.main-content a[href*="http"] {
+/* This targets your “Primary CTA / Secondary CTA” links but avoids styling every link */
+.main-content a[href^="#contact"],
+.main-content a[href^="#services"],
+.main-content a[href^="#work"],
+.main-content a[href^="#process"],
+.main-content a[href^="#packages"],
+.main-content a[href^="#testimonials"],
+.main-content a[href^="#faq"],
+.main-content a[href^="#about"] {
   display: inline-block;
   padding: 10px 18px;
   margin: 8px 8px 8px 0;
   border-radius: 6px;
-  font-weight: 600;
+  font-weight: 700;
   background: $brand-red;
   color: #ffffff !important;
   transition: 0.2s ease-in-out;
 }
 
-.main-content a[href^="#"]:hover,
-.main-content a[href*="http"]:hover {
-  background: #990000;
+.main-content a[href^="#contact"]:hover,
+.main-content a[href^="#services"]:hover,
+.main-content a[href^="#work"]:hover,
+.main-content a[href^="#process"]:hover,
+.main-content a[href^="#packages"]:hover,
+.main-content a[href^="#testimonials"]:hover,
+.main-content a[href^="#faq"]:hover,
+.main-content a[href^="#about"]:hover {
+  background: $brand-red-dark;
   transform: translateY(-2px);
 }
 
 /* =========================
    SECTION CARD STYLE
 ========================= */
-
 .main-content h3 + p,
 .main-content h3 + ul {
   background: $brand-light-gray;
@@ -96,7 +119,6 @@ a:hover {
 /* =========================
    TESTIMONIALS
 ========================= */
-
 blockquote {
   background: $brand-dark;
   color: #ffffff;
@@ -109,7 +131,6 @@ blockquote {
 /* =========================
    PROCESS NUMBERS
 ========================= */
-
 .main-content ol {
   list-style: none;
   padding-left: 0;
@@ -136,9 +157,4 @@ blockquote {
   text-align: center;
   line-height: 28px;
   font-weight: bold;
-}
-
-.page-header .project-name,
-.page-header .project-tagline {
-  display: none;
 }
