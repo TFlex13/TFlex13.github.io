@@ -17,6 +17,22 @@ $brand-light-gray: #f5f5f5;
 
 .page-header {
   background-image: linear-gradient(135deg, #cc0000, #000000);
+  text-align: left;
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+/* Add logo above the tagline */
+.page-header::before {
+  content: "";
+  display: block;
+  width: 220px;
+  height: 220px;
+  margin: 0 auto 18px auto;
+  background-image: url("/assets/images/RedLine_Marketing_logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 /* =========================
@@ -115,4 +131,9 @@ blockquote {
   text-align: center;
   line-height: 28px;
   font-weight: bold;
+}
+
+.page-header .project-name,
+.page-header .project-tagline {
+  display: none;
 }
