@@ -3,7 +3,7 @@ layout: default
 title: Redline Marketing
 ---
 
-# Welcome to Redline Marketing 🚀
+# Welcome to Redline Connect 🚀
 *Strategic Growth. Accelerated.*
 
 **Placeholder tagline:** We help brands grow faster with strategy, creative, and performance marketing that actually moves the needle.
