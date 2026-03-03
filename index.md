@@ -1,6 +1,6 @@
 ---
 layout: default
-title: Redline Marketing
+title: Redline Connect
 ---
 
 # Welcome to Redline Connect 🚀
