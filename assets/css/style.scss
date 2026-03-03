@@ -166,10 +166,29 @@ blockquote {
   font-weight: bold;
 }
 
-.wrapper {
+/* =========================
+   LAYOUT WIDTH OVERRIDES
+========================= */
+
+/* Make the main page content go wider */
+.main-content {
   max-width: 100% !important;
   padding-left: 2rem !important;
   padding-right: 2rem !important;
+}
+
+/* Some GitHub Pages builds wrap content in these containers */
+.container,
+.container-lg,
+.container-xl,
+.container-xxl {
+  max-width: 100% !important;
+}
+
+/* Cayman also uses an inner wrapper on header/content */
+.page-header,
+.main-content {
+  width: 100% !important;
 }
 
 /* =========================
