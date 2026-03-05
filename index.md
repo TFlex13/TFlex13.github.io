@@ -3,155 +3,86 @@ layout: default
 title: Redline Connect
 ---
 
-# Welcome to Redline Connect 🚀
-*Strategic Growth. Accelerated.*
+# Redline Connect
 
-**Placeholder tagline:** We help brands grow faster with strategy, creative, and performance marketing that actually moves the needle.
+**Independent sales, built for real-world relationships.**  
+Earn commission by helping local stores in your area discover and stock great brands.
 
-[Primary CTA: Book a Call](#contact) · [Secondary CTA: View Services](#services)
-
----
-
-## What We Do {#services}
-
-### 1) Strategy & Positioning
-**Placeholder:** Clarify who you are, who you’re for, and why you win. Messaging, offers, and go-to-market direction that your whole team can rally behind.
-
-### 2) Creative & Content
-**Placeholder:** Scroll-stopping creative, strong copy, and content that feels like your brand, not a template.
-
-### 3) Web & Landing Pages
-**Placeholder:** Modern sites and landing pages built to convert, load fast, and look sharp on every screen.
-
-### 4) Paid Media & Campaigns
-**Placeholder:** Full-funnel ad campaigns that prioritize profitable growth, not vanity metrics.
-
-### 5) Analytics & Optimization
-**Placeholder:** Clean tracking, clear reporting, and ongoing testing to improve performance over time.
-
-**Optional mini-callout:**  
-**Best for:** [Placeholder industries/niches]  
-**Tools we use:** [Meta/Google/TikTok/Email/SEO/CRO/etc.]
+[Apply Today](./apply) [Learn How It Works](#how-it-works)
 
 ---
 
-## Featured Results (Case Studies) {#work}
+## What We Do
 
-### Case Study A: [Client Name / Industry]
-- **Goal:** [Placeholder goal]
-- **What we did:** [Placeholder services]
-- **Outcome:** **[Placeholder result]** (e.g., +42% leads, -28% CPA, 3.1x ROAS)
-- **Link:** [View Case Study](#)
+Redline Connect matches **independent sales reps** with **brands that want retail placement**.  
+You visit convenience stores and general retailers in your local area, introduce products, and help stores place their first order through a simple ordering portal.
 
-### Case Study B: [Client Name / Industry]
-- **Goal:** [Placeholder goal]
-- **What we did:** [Placeholder services]
-- **Outcome:** **[Placeholder result]**
-- **Link:** [View Case Study](#)
-
-### Case Study C: [Client Name / Industry]
-- **Goal:** [Placeholder goal]
-- **What we did:** [Placeholder services]
-- **Outcome:** **[Placeholder result]**
-- **Link:** [View Case Study](#)
-
-> **Note:** You can replace these with image-based cards later.
+As we add new brands, you can bring those new products to your existing stores to grow your commissions.
 
 ---
 
-## Our Process {#process}
+## Who This Is For
 
-1. **Discovery**
-   - [Placeholder] Quick audit, goals, constraints, and what “success” means.
-2. **Strategy**
-   - [Placeholder] Positioning, messaging, channel plan, and priorities.
-3. **Build**
-   - [Placeholder] Creative, landing pages, tracking, and campaign setup.
-4. **Launch**
-   - [Placeholder] Go live with monitoring, QA, and rapid iteration.
-5. **Optimize**
-   - [Placeholder] Weekly learnings, testing roadmap, and compounding gains.
+This is a fit if you:
+- Like talking to people and building local relationships
+- Prefer flexible work (your schedule, your territory)
+- Want performance-based upside with residual commissions
+- Can invest in a small sample kit used as your sales toolkit
+
+This is **not** a fit if you’re looking for hourly pay, a guaranteed schedule, or guaranteed earnings.
 
 ---
 
-## Packages (Optional) {#packages}
+## How It Works
+<a id="how-it-works"></a>
 
-### Starter
-- **Best for:** [Placeholder]
-- Includes: [Placeholder bullets]
-- **Starting at:** $[Placeholder]
+1. **Apply**
+   Submit a quick application so we can verify basic fit and territory details.
 
-### Growth
-- **Best for:** [Placeholder]
-- Includes: [Placeholder bullets]
-- **Starting at:** $[Placeholder]
+2. **Get Approved**
+   If approved, you’ll receive next steps and access to training resources.
 
-### Performance
-- **Best for:** [Placeholder]
-- Includes: [Placeholder bullets]
-- **Starting at:** $[Placeholder]
+3. **Purchase Your Sample Kit**
+   Each brand has an optional (sometimes required) sample kit.  
+   This is your sales toolkit to show packaging and product details in-store.
 
-*Prefer custom?* [Request a quote](#contact)
+4. **Visit Local Stores**
+   You introduce products, answer basic questions, and build interest.
 
----
+5. **Help Place the First Order**
+   When a store is ready, you use the brand’s order portal to place the first order.
 
-## Testimonials {#testimonials}
-
-> **“[Placeholder testimonial line that hits hard.]”**  
-— **[Name]**, [Title], [Company]
-
-> **“[Placeholder testimonial line.]”**  
-— **[Name]**, [Title], [Company]
-
-> **“[Placeholder testimonial line.]”**  
-— **[Name]**, [Title], [Company]
+6. **Earn Commissions + Residuals**
+   You earn commission on the initial order and ongoing reorders from stores you brought in.
 
 ---
 
-## FAQ {#faq}
+## What You Get
 
-**Q: What types of businesses do you work with?**  
-A: [Placeholder answer: industries, size, stage, etc.]
-
-**Q: How long until we see results?**  
-A: [Placeholder answer: depends on channel, baseline, timeline.]
-
-**Q: Do you offer one-time projects or retainers?**  
-A: [Placeholder answer.]
-
-**Q: What do you need from us to start?**  
-A: [Placeholder answer: access, brand assets, goals, etc.]
+- Training resources (scripts, pitch framework, objection handling)
+- Brand assets (sell sheets, product highlights, pricing guidance)
+- A simple process for first orders and reorder support
+- A growing catalog of brands to bring to your store list
 
 ---
 
-## About Redline {#about}
+## Why Redline Connect
 
-**Placeholder:** Redline Marketing is built for teams who want growth with clarity, speed, and accountability. We blend strategy, creative, and performance to produce measurable outcomes.
+**We’re not tied to one product.**  
+As we add more brands, you can increase your earnings by introducing new products to stores already in your network.
 
-- **Founded:** [Year]
-- **Based in:** [City/Region]
-- **Specialties:** [Placeholder]
-- **Email:** [your@email.com]
-- **Social:** [LinkedIn] [Instagram] [X]
+This model rewards consistency and relationship-building, not clocking in.
 
 ---
 
-## Contact {#contact}
+## Ready to Get Started?
 
-### Let’s talk.
-**Placeholder:** Tell us what you’re building, what’s not working, and what you want next.
-
-- **Name:** [Your Name]
-- **Company:** [Company Name]
-- **Email:** [Email Address]
-- **Phone (optional):** [Phone]
-- **Project summary:** [A few sentences]
-- **Budget range:** [$ / $$ / $$$]
-- **Timeline:** [Soon / This month / Next quarter]
-
-**Email us:** [hello@yourdomain.com](mailto:hello@yourdomain.com)  
-**Or book a call:** [Calendar Link Placeholder](#)
+[Apply Today](./apply)
 
 ---
 
-*© {{ site.time | date: '%Y' }} Redline Marketing. All rights reserved.*
+## Important Notes (Read This)
+- Independent contractor role (1099). You control your schedule and approach.
+- 100% commission-based. No salary or hourly wage.
+- Earnings vary by effort, territory, and results. No income claims or guarantees.
+- Sample kits are your sales tools and typically are not left with stores.
