@@ -34,20 +34,6 @@ $brand-light-gray: #f5f5f5;
   align-items: center;      /* <-- vertical centering */
 }
 
-/* LOGO */
-.page-header::before {
-  content: "";
-  display: block;
-
-  width: 520px;     /* your chosen logo width */
-  height: 120px;    /* smaller height so it fits cleanly */
-
-  background-image: url("/assets/images/Redline_connect_logo.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: left center;
-}
-
 /* Optional: slightly smaller on mobile */
 @media (max-width: 768px) {
   .page-header {
