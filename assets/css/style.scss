@@ -292,6 +292,84 @@ blockquote {
 }
 
 /* =========================
+   WHO THIS IS FOR SECTION
+========================= */
+
+.fit-section {
+  margin-top: 10px;
+}
+
+.fit-intro {
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.fit-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 24px;
+  margin-bottom: 20px;
+}
+
+.fit-card {
+  background: #f5f5f5;
+  border-radius: 10px;
+  padding: 22px;
+  text-align: center;
+  transition: 0.2s ease;
+}
+
+.fit-card:hover {
+  transform: translateY(-3px);
+}
+
+.fit-card img {
+  width: 60px;
+  height: auto;
+  margin-bottom: 12px;
+}
+
+.fit-card p {
+  font-size: 0.95rem;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.fit-warning {
+  margin-top: 10px;
+  padding: 14px 18px;
+  background: #111111;
+  color: #ffffff;
+  border-left: 4px solid #cc0000;
+  border-radius: 6px;
+  font-size: 0.95rem;
+}
+
+/* =========================
+   MOBILE LAYOUT
+========================= */
+
+@media (max-width: 768px) {
+
+  .fit-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .fit-card img {
+    width: 48px;
+  }
+
+}
+
+@media (max-width: 480px) {
+
+  .fit-grid {
+    grid-template-columns: 1fr;
+  }
+
+}
+
+/* =========================
    MOBILE SECTION
 ========================= */
 
