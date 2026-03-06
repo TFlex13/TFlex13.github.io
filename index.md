@@ -22,19 +22,22 @@ Earn commission by helping local stores in your area discover and stock great br
 
 <div class="what-we-do-text">
 
-### Boots-on-the-Ground Sales
+<h3>Boots-on-the-Ground Sales</h3>
+<p>
+  Highline Connect builds real relationships between brands and retailers.
+  Our independent sales reps visit convenience stores, general stores, and specialty retailers in their territories to introduce innovative products and secure shelf placement.
+</p>
 
-Highline Connect builds real relationships between brands and retailers.  
-Our independent sales reps visit convenience stores, general stores, and specialty retailers in their territories to introduce innovative products and secure shelf placement.
+<h3>Territory Ownership</h3>
+<p>
+  When a rep brings a store on board, that store becomes part of their territory.
+  Reps earn commission not only on the first order, but also on future reorders, creating long-term residual income.
+</p>
 
-### Territory Ownership
-
-When a rep brings a store on board, that store becomes part of their territory.  
-Reps earn commission not only on the first order, but also on future reorders — creating long-term residual income.
-
-### Multi-Brand Opportunity
-
-As Highline Connect partners with new brands, reps can revisit their existing stores and expand the product lineup they offer, increasing revenue from the same client relationships.
+<h3>Multi-Brand Opportunity</h3>
+<p>
+  As Highline Connect partners with new brands, reps can revisit their existing stores and expand the product lineup they offer, increasing revenue from the same client relationships.
+</p>
 
 </div>
 
