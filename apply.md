@@ -5,7 +5,7 @@ title: Apply Today
 
 # Apply Today
 
-Thank you for your interest in Redline Connect.
+Thank you for your interest in Highline Connect.
 
 Please complete the application below. We review submissions based on territory coverage, fit, and current brand opportunities.
 
