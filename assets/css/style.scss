@@ -235,17 +235,46 @@ blockquote {
 /* =========================
    MOBILE HEADER FIX
 ========================= */
+
+/* =========================
+   MOBILE HEADER LAYOUT
+========================= */
 @media (max-width: 768px) {
-
   .page-header {
-    padding: 1rem 1.25rem !important;
+    height: auto !important;
+    min-height: 160px;
+    padding: 1rem 1rem !important;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center !important;
+    gap: 0.75rem;
   }
 
-  .page-header::before {
-    width: 280px;   /* smaller logo on mobile */
-    height: 100px;  /* controls header height */
+  .site-logo-link {
+    height: auto;
+    justify-content: center;
   }
 
+  .site-logo {
+    width: 220px;
+    max-width: 90vw;
+    height: auto;
+  }
+
+  .header-cta {
+    margin-left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .apply-button {
+    display: inline-block;
+    width: auto;
+    max-width: 90vw;
+    text-align: center;
+  }
 }
 
 @media (max-width: 768px) {
