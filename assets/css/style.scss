@@ -196,6 +196,21 @@ blockquote {
 }
 
 /* =========================
+   CLICKABLE HEADER LOGO
+========================= */
+
+.site-logo-link {
+  display: flex;
+  align-items: center;
+  height: 200px;
+}
+
+.site-logo {
+  width: 520px;
+  height: auto;
+}
+
+/* =========================
    MOBILE HEADER FIX
 ========================= */
 @media (max-width: 768px) {
