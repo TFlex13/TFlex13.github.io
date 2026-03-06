@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Redline Connect
+title: Highline Connect
 ---
 
-# Redline Connect
+# Highline Connect
 
 **Independent sales, built for real-world relationships.**  
 Earn commission by helping local stores in your area discover and stock great brands.
@@ -14,7 +14,7 @@ Earn commission by helping local stores in your area discover and stock great br
 
 ## What We Do
 
-Redline Connect matches **independent sales reps** with **brands that want retail placement**.  
+Highline Connect matches **independent sales reps** with **brands that want retail placement**.  
 You visit convenience stores and general retailers in your local area, introduce products, and help stores place their first order through a simple ordering portal.
 
 As we add new brands, you can bring those new products to your existing stores to grow your commissions.
@@ -66,7 +66,7 @@ This is **not** a fit if you’re looking for hourly pay, a guaranteed schedule,
 
 ---
 
-## Why Redline Connect
+## Why Highline Connect
 
 **We’re not tied to one product.**  
 As we add more brands, you can increase your earnings by introducing new products to stores already in your network.
