@@ -192,6 +192,24 @@ blockquote {
 }
 
 /* =========================
+   GOOGLE FORM CROP
+========================= */
+
+.form-crop {
+  width: 100%;
+  height: 3780px;   /* slightly shorter than iframe to hide footer */
+  overflow: hidden;
+  position: relative;
+}
+
+.form-crop iframe {
+  width: 100%;
+  height: 3900px;   /* matches the iframe height in apply.md */
+  border: 0;
+  display: block;
+}
+
+/* =========================
    MOBILE HEADER FIX
 ========================= */
 @media (max-width: 768px) {
