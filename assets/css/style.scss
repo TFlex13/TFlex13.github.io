@@ -263,6 +263,35 @@ blockquote {
 }
 
 /* =========================
+   HERO INTRO
+========================= */
+
+.hero-intro {
+  text-align: center;
+  padding: 60px 20px 30px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.hero-intro h1 {
+  font-size: 2.5rem;
+  margin-bottom: 10px;
+}
+
+.hero-sub {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #444;
+  margin-bottom: 12px;
+}
+
+.hero-desc {
+  font-size: 1.05rem;
+  color: #666;
+  line-height: 1.6;
+}
+
+/* =========================
    MOBILE SECTION
 ========================= */
 
