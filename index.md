@@ -3,13 +3,20 @@ layout: default
 title: Highline Connect
 ---
 
-# Highline Connect
+<div class="hero-intro">
 
-**Independent sales, built for real-world relationships.**  
-Earn commission by helping local stores in your area discover and stock great brands.
+<h1>Highline Connect</h1>
 
-[Apply Today](./apply) [Learn How It Works](#how-it-works)
+<p class="hero-sub">
+Independent sales built for real-world relationships.
+</p>
 
+<p class="hero-desc">
+Join a national network of independent sales reps introducing innovative brands
+to convenience stores and specialty retailers in their communities.
+</p>
+
+</div>
 ---
 
 ## What We Do
