@@ -9,11 +9,17 @@
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
   </head>
   <body>
-    <header class="page-header" role="banner">
-      <a href="{{ '/' | relative_url }}" class="site-logo-link">
-        <img src="/assets/images/HighLine_Connect_Logo.png" class="site-logo">
-      </a>
-    </header>
+    <header class="page-header">
+
+  <a href="{{ '/' | relative_url }}" class="site-logo-link">
+    <img src="/assets/images/Highline_Connect_Logo.png" class="site-logo">
+  </a>
+
+  <div class="header-cta">
+    <a href="{{ '/apply' | relative_url }}" class="apply-button">Apply Now</a>
+  </div>
+
+</header>
 
     <main id="content" class="main-content" role="main">
       {{ content }}
