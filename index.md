@@ -53,13 +53,37 @@ to convenience stores and specialty retailers in their communities.
 
 ## Who This Is For
 
-This is a fit if you:
-- Like talking to people and building local relationships
-- Prefer flexible work (your schedule, your territory)
-- Want performance-based upside with residual commissions
-- Can invest in a small sample kit used as your sales toolkit
+<div class="fit-section">
 
-This is **not** a fit if you’re looking for hourly pay, a guaranteed schedule, or guaranteed earnings.
+  <p class="fit-intro">This is a fit if you:</p>
+
+  <div class="fit-grid">
+    <div class="fit-card">
+      <img src="{{ '/assets/images/icon-relationships.png' | relative_url }}" alt="Relationships icon">
+      <p>Like talking to people and building local relationships</p>
+    </div>
+
+    <div class="fit-card">
+      <img src="{{ '/assets/images/icon-flexibility.png' | relative_url }}" alt="Flexibility icon">
+      <p>Prefer flexible work with control over your schedule and territory</p>
+    </div>
+
+    <div class="fit-card">
+      <img src="{{ '/assets/images/icon-performance.png' | relative_url }}" alt="Performance icon">
+      <p>Want performance-based upside with residual commissions</p>
+    </div>
+
+    <div class="fit-card">
+      <img src="{{ '/assets/images/icon-samplekit.png' | relative_url }}" alt="Sample kit icon">
+      <p>Can invest in a small sample kit used as your sales toolkit</p>
+    </div>
+  </div>
+
+  <div class="fit-warning">
+    <strong>This is not a fit</strong> if you’re looking for hourly pay, a guaranteed schedule, or guaranteed earnings.
+  </div>
+
+</div>
 
 ---
 
