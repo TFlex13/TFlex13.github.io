@@ -89,40 +89,40 @@ to convenience stores and specialty retailers in their communities.
 
 ## How It Works
 
-<div class="how-it-works-grid">
+<div class="process-flow">
 
-  <div class="how-card">
-    <div class="how-number">1</div>
+  <div class="process-step">
+    <div class="process-number">1</div>
     <h3>Apply</h3>
     <p>Submit a quick application so we can verify basic fit and territory details.</p>
   </div>
 
-  <div class="how-card">
-    <div class="how-number">2</div>
+  <div class="process-step">
+    <div class="process-number">2</div>
     <h3>Get Approved</h3>
     <p>If approved, you’ll receive next steps and access to training resources.</p>
   </div>
 
-  <div class="how-card">
-    <div class="how-number">3</div>
+  <div class="process-step">
+    <div class="process-number">3</div>
     <h3>Purchase Your Sample Kit</h3>
-    <p>Each brand has an optional, and sometimes required, sample kit used as your sales toolkit for in-store presentations.</p>
+    <p>Each brand may require a sample kit used as your sales toolkit for in-store presentations.</p>
   </div>
 
-  <div class="how-card">
-    <div class="how-number">4</div>
+  <div class="process-step">
+    <div class="process-number">4</div>
     <h3>Visit Local Stores</h3>
-    <p>Introduce products, answer basic questions, and build interest with retailers in your territory.</p>
+    <p>Introduce products, answer questions, and build interest with retailers in your territory.</p>
   </div>
 
-  <div class="how-card">
-    <div class="how-number">5</div>
-    <h3>Help Place the First Order</h3>
-    <p>When a store is ready, use the brand’s order portal to place the first order.</p>
+  <div class="process-step">
+    <div class="process-number">5</div>
+    <h3>Place the First Order</h3>
+    <p>When a store is ready, use the brand’s order portal to submit the first order.</p>
   </div>
 
-  <div class="how-card">
-    <div class="how-number">6</div>
+  <div class="process-step">
+    <div class="process-number">6</div>
     <h3>Earn Commissions + Residuals</h3>
     <p>Earn on the initial order and ongoing reorders from stores you brought in.</p>
   </div>
