@@ -222,7 +222,6 @@ to convenience stores and specialty retailers in their communities.
 ## Ready to Get Started?
 
 <div class="final-cta">
-  <h2>Ready to Get Started?</h2>
   <p>Take the next step toward building relationships, representing great brands, and earning commission in your territory.</p>
   <a href="{{ '/apply' | relative_url }}" class="final-cta-button">Apply Today</a>
 </div>
