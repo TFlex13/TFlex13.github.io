@@ -88,28 +88,46 @@ to convenience stores and specialty retailers in their communities.
 ---
 
 ## How It Works
-<a id="how-it-works"></a>
 
-1. **Apply**
-   Submit a quick application so we can verify basic fit and territory details.
+<div class="how-it-works-grid">
 
-2. **Get Approved**
-   If approved, you’ll receive next steps and access to training resources.
+  <div class="how-card">
+    <div class="how-number">1</div>
+    <h3>Apply</h3>
+    <p>Submit a quick application so we can verify basic fit and territory details.</p>
+  </div>
 
-3. **Purchase Your Sample Kit**
-   Each brand has an optional (sometimes required) sample kit.  
-   This is your sales toolkit to show packaging and product details in-store.
+  <div class="how-card">
+    <div class="how-number">2</div>
+    <h3>Get Approved</h3>
+    <p>If approved, you’ll receive next steps and access to training resources.</p>
+  </div>
 
-4. **Visit Local Stores**
-   You introduce products, answer basic questions, and build interest.
+  <div class="how-card">
+    <div class="how-number">3</div>
+    <h3>Purchase Your Sample Kit</h3>
+    <p>Each brand has an optional, and sometimes required, sample kit used as your sales toolkit for in-store presentations.</p>
+  </div>
 
-5. **Help Place the First Order**
-   When a store is ready, you use the brand’s order portal to place the first order.
+  <div class="how-card">
+    <div class="how-number">4</div>
+    <h3>Visit Local Stores</h3>
+    <p>Introduce products, answer basic questions, and build interest with retailers in your territory.</p>
+  </div>
 
-6. **Earn Commissions + Residuals**
-   You earn commission on the initial order and ongoing reorders from stores you brought in.
+  <div class="how-card">
+    <div class="how-number">5</div>
+    <h3>Help Place the First Order</h3>
+    <p>When a store is ready, use the brand’s order portal to place the first order.</p>
+  </div>
 
----
+  <div class="how-card">
+    <div class="how-number">6</div>
+    <h3>Earn Commissions + Residuals</h3>
+    <p>Earn on the initial order and ongoing reorders from stores you brought in.</p>
+  </div>
+
+</div>
 
 ## What You Get
 
