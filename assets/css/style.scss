@@ -12,42 +12,26 @@ $brand-dark: #111111;
 $brand-light-gray: #f5f5f5;
 
 /* =========================
-   HEADER (gradient + left logo)
+   HEADER
 ========================= */
-
-/* Kill the theme’s text title/tagline in the header */
 .page-header .project-name,
 .page-header .project-tagline {
   display: none !important;
 }
 
-/* HEADER */
 .page-header {
   background-image: linear-gradient(135deg, #cc0000, #000000) !important;
   text-align: left !important;
-
-  height: 200px;            /* height of the red band */
+  height: 200px;
   padding: 0 1.5rem !important;
-
   position: relative;
   display: flex;
-  align-items: center;      /* <-- vertical centering */
-}
-
-/* Optional: slightly smaller on mobile */
-@media (max-width: 768px) {
-  .page-header {
-    padding: 1.75rem 1.25rem !important;
-  }
-
-  .page-header::before {
-    width: 120px;
-    height: 120px;
-  }
+  align-items: center;
+  width: 100% !important;
 }
 
 /* =========================
-   REMOVE GREEN ACCENTS
+   GLOBAL TYPOGRAPHY / LINKS
 ========================= */
 a {
   color: $brand-red !important;
@@ -57,6 +41,13 @@ a:hover {
   color: $brand-red-dark !important;
 }
 
+.main-content {
+  max-width: 100% !important;
+  width: 100% !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
+}
+
 .main-content h1,
 .main-content h2,
 .main-content h3,
@@ -64,10 +55,17 @@ a:hover {
   color: $brand-dark !important;
 }
 
+/* Some GitHub Pages builds wrap content in these containers */
+.container,
+.container-lg,
+.container-xl,
+.container-xxl {
+  max-width: 100% !important;
+}
+
 /* =========================
-   BUTTONS (only CTA links)
+   BUTTONS (ANCHOR CTA STYLES)
 ========================= */
-/* This targets your “Primary CTA / Secondary CTA” links but avoids styling every link */
 .main-content a[href^="#contact"],
 .main-content a[href^="#services"],
 .main-content a[href^="#work"],
@@ -99,7 +97,7 @@ a:hover {
 }
 
 /* =========================
-   SECTION CARD STYLE
+   GENERIC SECTION CARD STYLE
 ========================= */
 .main-content h3 + p,
 .main-content h3 + ul {
@@ -122,7 +120,7 @@ blockquote {
 }
 
 /* =========================
-   PROCESS NUMBERS
+   LEGACY ORDERED LIST STYLING
 ========================= */
 .main-content ol {
   list-style: none;
@@ -153,44 +151,18 @@ blockquote {
 }
 
 /* =========================
-   LAYOUT WIDTH OVERRIDES
-========================= */
-
-/* Make the main page content go wider */
-.main-content {
-  max-width: 100% !important;
-  padding-left: 2rem !important;
-  padding-right: 2rem !important;
-}
-
-/* Some GitHub Pages builds wrap content in these containers */
-.container,
-.container-lg,
-.container-xl,
-.container-xxl {
-  max-width: 100% !important;
-}
-
-/* Cayman also uses an inner wrapper on header/content */
-.page-header,
-.main-content {
-  width: 100% !important;
-}
-
-/* =========================
    GOOGLE FORM CROP
 ========================= */
-
 .form-crop {
   width: 100%;
-  height: 3590px;   /* slightly shorter than iframe to hide footer */
+  height: 3590px;
   overflow: hidden;
   position: relative;
 }
 
 .form-crop iframe {
   width: 100%;
-  height: 3800px;   /* matches the iframe height in apply.md */
+  height: 3800px;
   border: 0;
   display: block;
 }
@@ -198,7 +170,6 @@ blockquote {
 /* =========================
    CLICKABLE HEADER LOGO
 ========================= */
-
 .site-logo-link {
   display: flex;
   align-items: center;
@@ -213,7 +184,6 @@ blockquote {
 /* =========================
    HEADER APPLY BUTTON
 ========================= */
-
 .header-cta {
   margin-left: auto;
 }
@@ -233,42 +203,11 @@ blockquote {
 }
 
 /* =========================
-   WHAT WE DO SECTION
-========================= */
-
-.what-we-do {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 40px;
-  align-items: center;
-  margin-top: 2rem;
-}
-
-.what-we-do-image img {
-  width: 100%;
-  border-radius: 10px;
-}
-
-.what-we-do-text h3 {
-  margin-top: 1rem;
-}
-
-/* Mobile layout */
-@media (max-width: 768px) {
-
-  .what-we-do {
-    grid-template-columns: 1fr;
-  }
-
-}
-
-/* =========================
    HERO INTRO
 ========================= */
-
 .hero-intro {
   text-align: center;
-  padding: 20px 10px 0px 10px;
+  padding: 20px 10px 0 10px;
   max-width: 900px;
   margin: 0 auto;
 }
@@ -292,9 +231,28 @@ blockquote {
 }
 
 /* =========================
+   WHAT WE DO SECTION
+========================= */
+.what-we-do {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.what-we-do-image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.what-we-do-text h3 {
+  margin-top: 1rem;
+}
+
+/* =========================
    WHO THIS IS FOR SECTION
 ========================= */
-
 .fit-section {
   margin-top: 10px;
 }
@@ -346,33 +304,8 @@ blockquote {
 }
 
 /* =========================
-   MOBILE LAYOUT
-========================= */
-
-@media (max-width: 768px) {
-
-  .fit-grid {
-    grid-template-columns: 1fr 1fr;
-  }
-
-  .fit-card img {
-    width: 48px;
-  }
-
-}
-
-@media (max-width: 480px) {
-
-  .fit-grid {
-    grid-template-columns: 1fr;
-  }
-
-}
-
-/* =========================
    HOW IT WORKS - PROCESS FLOW
 ========================= */
-
 .process-flow {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -410,28 +343,9 @@ blockquote {
   color: #555;
 }
 
-/* tablet */
-@media (max-width: 900px) {
-
-  .process-flow {
-    grid-template-columns: repeat(2, 1fr);
-  }
-
-}
-
-/* mobile */
-@media (max-width: 600px) {
-
-  .process-flow {
-    grid-template-columns: 1fr;
-  }
-
-}
-
 /* =========================
    WHAT YOU GET SECTION
 ========================= */
-
 .what-you-get {
   display: grid;
   grid-template-columns: 1.1fr 1fr;
@@ -442,7 +356,7 @@ blockquote {
 
 .what-you-get-image img {
   width: 100%;
-  border-radius: 12px;
+  border-radius: 10px;
 }
 
 .what-you-get-content {
@@ -450,35 +364,46 @@ blockquote {
   gap: 16px;
 }
 
+.get-item {
+  margin-bottom: 0;
+}
+
+.get-item h3 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-size: 1.3rem;
+  color: #111111 !important;
+  font-weight: 400;
+}
+
 .get-card {
   background: #f5f5f5;
   padding: 20px;
-  border-radius: 10px;
+  border-radius: 8px;
   border-left: 4px solid #cc0000;
   transition: 0.2s ease;
 }
 
 .get-card:hover {
-  transform: translateY(-3px);
-}
-
-.get-card h3 {
-  margin: 0 0 6px 0;
-  font-size: 1.05rem;
+  transform: none;
 }
 
 .get-card p {
   margin: 0;
-  font-size: 0.95rem;
-  line-height: 1.5;
+  font-size: 1rem;
+  line-height: 1.6;
   color: #555;
 }
 
 /* =========================
-   MOBILE LAYOUT
+   RESPONSIVE
 ========================= */
 
+/* Tablet */
 @media (max-width: 900px) {
+  .process-flow {
+    grid-template-columns: repeat(2, 1fr);
+  }
 
   .what-you-get {
     grid-template-columns: 1fr;
@@ -487,29 +412,9 @@ blockquote {
   .what-you-get-image {
     order: -1;
   }
-
 }
 
-/* =========================
-   WHAT YOU GET TITLE LAYOUT
-========================= */
-
-.get-item h3 {
-  margin-bottom: 6px;
-  font-size: 1.05rem;
-}
-
-.get-item {
-  margin-bottom: 14px;
-}
-
-/* =========================
-   MOBILE SECTION
-========================= */
-
-/* =========================
-   MOBILE HEADER LAYOUT
-========================= */
+/* Mobile */
 @media (max-width: 768px) {
   .page-header {
     height: auto !important;
@@ -546,14 +451,36 @@ blockquote {
     max-width: 90vw;
     text-align: center;
   }
-}
 
-@media (max-width: 768px) {
+  .what-we-do {
+    grid-template-columns: 1fr;
+  }
+
+  .fit-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .fit-card img {
+    width: 48px;
+  }
+
   .form-crop {
     height: 4200px;
   }
 
   .form-crop iframe {
     height: 4300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .process-flow {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .fit-grid {
+    grid-template-columns: 1fr;
   }
 }
