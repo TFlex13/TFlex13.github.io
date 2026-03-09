@@ -180,7 +180,7 @@ to convenience stores and specialty retailers in their communities.
       <img src="{{ '/assets/images/Archer_logo.png' | relative_url }}" alt="Archer logo">
       <img src="{{ '/assets/images/C2O_Coconut_water_logo.png' | relative_url }}" alt="C2O Coconut Water logo">
       <img src="{{ '/assets/images/Ghost-Logo.png' | relative_url }}" alt="Ghost logo">
-      <img src="{{ '/assets/images/Lenny&Larry''s_Logo_Black.png' | relative_url }}" alt="Lenny and Larry's logo">
+      <img src="{{ '/assets/images/Lenny&Larry's_Logo_Black.png' | relative_url }}" alt="Lenny and Larry's logo">
       <img src="{{ '/assets/images/Liquid-Death-Logo.png' | relative_url }}" alt="Liquid Death logo">
       <img src="{{ '/assets/images/Nantucket_crisps_logo.png' | relative_url }}" alt="Nantucket Crisps logo">
       <img src="{{ '/assets/images/OLIPOP_logo.png' | relative_url }}" alt="Olipop logo">
@@ -191,7 +191,7 @@ to convenience stores and specialty retailers in their communities.
       <img src="{{ '/assets/images/Archer_logo.png' | relative_url }}" alt="Archer logo">
       <img src="{{ '/assets/images/C2O_Coconut_water_logo.png' | relative_url }}" alt="C2O Coconut Water logo">
       <img src="{{ '/assets/images/Ghost-Logo.png' | relative_url }}" alt="Ghost logo">
-      <img src="{{ '/assets/images/Lenny&Larry''s_Logo_Black.png' | relative_url }}" alt="Lenny and Larry's logo">
+      <img src="{{ '/assets/images/Lenny&Larry's_Logo_Black.png' | relative_url }}" alt="Lenny and Larry's logo">
       <img src="{{ '/assets/images/Liquid-Death-Logo.png' | relative_url }}" alt="Liquid Death logo">
       <img src="{{ '/assets/images/Nantucket_crisps_logo.png' | relative_url }}" alt="Nantucket Crisps logo">
       <img src="{{ '/assets/images/OLIPOP_logo.png' | relative_url }}" alt="Olipop logo">
