@@ -505,13 +505,19 @@ blockquote {
 
 .brand-track {
   display: flex;
-  align-items: center;
-  gap: 50px;
   width: max-content;
-  animation: scroll-brands 35s linear infinite;
+  animation: scroll-brands 28s linear infinite;
 }
 
-.brand-track img {
+.brand-group {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  flex-shrink: 0;
+  padding-right: 50px;
+}
+
+.brand-group img {
   height: 50px;
   width: auto;
   max-width: 160px;
@@ -542,11 +548,15 @@ blockquote {
 /* Mobile */
 @media (max-width: 768px) {
   .brand-track {
-    gap: 30px;
-    animation-duration: 24s;
+    animation-duration: 22s;
   }
 
-  .brand-track img {
+  .brand-group {
+    gap: 30px;
+    padding-right: 30px;
+  }
+
+  .brand-group img {
     height: 38px;
     max-width: 120px;
   }
