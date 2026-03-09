@@ -178,27 +178,31 @@ to convenience stores and specialty retailers in their communities.
   <div class="brand-marquee">
     <div class="brand-track">
 
-<img src="{{ '/assets/images/Archer_logo.png' | relative_url }}" alt="Archer">
-<img src="{{ '/assets/images/C2O_Coconut_water_logo.png' | relative_url }}" alt="C2O">
-<img src="{{ '/assets/images/Ghost-Logo.png' | relative_url }}" alt="Ghost">
-<img src="{{ '/assets/images/lenny-larrys-logo-black.png' | relative_url }}" alt="Lenny and Larry's">
-<img src="{{ '/assets/images/Liquid-Death-Logo.png' | relative_url }}" alt="Liquid Death">
-<img src="{{ '/assets/images/Nantucket_crisps_logo.png' | relative_url }}" alt="Nantucket Crisps">
-<img src="{{ '/assets/images/OLIPOP_logo.png' | relative_url }}" alt="OLIPOP">
-<img src="{{ '/assets/images/RedHawk_Logo.png' | relative_url }}" alt="RedHawk">
-<img src="{{ '/assets/images/Snak_Club_Logo.png' | relative_url }}" alt="Snak Club">
-<img src="{{ '/assets/images/suorin-logo.png' | relative_url }}" alt="Suorin">
+  <div class="brand-group">
+    <img src="{{ '/assets/images/Archer_logo.png' | relative_url }}" alt="Archer">
+    <img src="{{ '/assets/images/C2O_Coconut_water_logo.png' | relative_url }}" alt="C2O">
+    <img src="{{ '/assets/images/Ghost-Logo.png' | relative_url }}" alt="Ghost">
+    <img src="{{ '/assets/images/lenny-larrys-logo-black.png' | relative_url }}" alt="Lenny and Larry's">
+    <img src="{{ '/assets/images/Liquid-Death-Logo.png' | relative_url }}" alt="Liquid Death">
+    <img src="{{ '/assets/images/Nantucket_crisps_logo.png' | relative_url }}" alt="Nantucket Crisps">
+    <img src="{{ '/assets/images/OLIPOP_logo.png' | relative_url }}" alt="OLIPOP">
+    <img src="{{ '/assets/images/RedHawk_Logo.png' | relative_url }}" alt="RedHawk">
+    <img src="{{ '/assets/images/Snak_Club_Logo.png' | relative_url }}" alt="Snak Club">
+    <img src="{{ '/assets/images/suorin-logo.png' | relative_url }}" alt="Suorin">
+  </div>
 
-<img src="{{ '/assets/images/Archer_logo.png' | relative_url }}" alt="Archer">
-<img src="{{ '/assets/images/C2O_Coconut_water_logo.png' | relative_url }}" alt="C2O">
-<img src="{{ '/assets/images/Ghost-Logo.png' | relative_url }}" alt="Ghost">
-<img src="{{ '/assets/images/lenny-larrys-logo-black.png' | relative_url }}" alt="Lenny and Larry's">
-<img src="{{ '/assets/images/Liquid-Death-Logo.png' | relative_url }}" alt="Liquid Death">
-<img src="{{ '/assets/images/Nantucket_crisps_logo.png' | relative_url }}" alt="Nantucket Crisps">
-<img src="{{ '/assets/images/OLIPOP_logo.png' | relative_url }}" alt="OLIPOP">
-<img src="{{ '/assets/images/RedHawk_Logo.png' | relative_url }}" alt="RedHawk">
-<img src="{{ '/assets/images/Snak_Club_Logo.png' | relative_url }}" alt="Snak Club">
-<img src="{{ '/assets/images/suorin-logo.png' | relative_url }}" alt="Suorin">
+  <div class="brand-group">
+    <img src="{{ '/assets/images/Archer_logo.png' | relative_url }}" alt="Archer">
+    <img src="{{ '/assets/images/C2O_Coconut_water_logo.png' | relative_url }}" alt="C2O">
+    <img src="{{ '/assets/images/Ghost-Logo.png' | relative_url }}" alt="Ghost">
+    <img src="{{ '/assets/images/lenny-larrys-logo-black.png' | relative_url }}" alt="Lenny and Larry's">
+    <img src="{{ '/assets/images/Liquid-Death-Logo.png' | relative_url }}" alt="Liquid Death">
+    <img src="{{ '/assets/images/Nantucket_crisps_logo.png' | relative_url }}" alt="Nantucket Crisps">
+    <img src="{{ '/assets/images/OLIPOP_logo.png' | relative_url }}" alt="OLIPOP">
+    <img src="{{ '/assets/images/RedHawk_Logo.png' | relative_url }}" alt="RedHawk">
+    <img src="{{ '/assets/images/Snak_Club_Logo.png' | relative_url }}" alt="Snak Club">
+    <img src="{{ '/assets/images/suorin-logo.png' | relative_url }}" alt="Suorin">
+  </div>
 
 </div>
   </div>
