@@ -434,6 +434,68 @@ blockquote {
 }
 
 /* =========================
+   WHAT YOU GET SECTION
+========================= */
+
+.what-you-get {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 40px;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.what-you-get-image img {
+  width: 100%;
+  border-radius: 12px;
+}
+
+.what-you-get-content {
+  display: grid;
+  gap: 16px;
+}
+
+.get-card {
+  background: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  border-left: 4px solid #cc0000;
+  transition: 0.2s ease;
+}
+
+.get-card:hover {
+  transform: translateY(-3px);
+}
+
+.get-card h3 {
+  margin: 0 0 6px 0;
+  font-size: 1.05rem;
+}
+
+.get-card p {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: #555;
+}
+
+/* =========================
+   MOBILE LAYOUT
+========================= */
+
+@media (max-width: 900px) {
+
+  .what-you-get {
+    grid-template-columns: 1fr;
+  }
+
+  .what-you-get-image {
+    order: -1;
+  }
+
+}
+
+/* =========================
    MOBILE SECTION
 ========================= */
 
