@@ -131,12 +131,37 @@ to convenience stores and specialty retailers in their communities.
 
 ## What You Get
 
-- Training resources (scripts, pitch framework, objection handling)
-- Brand assets (sell sheets, product highlights, pricing guidance)
-- A simple process for first orders and reorder support
-- A growing catalog of brands to bring to your store list
+<div class="what-you-get">
 
----
+  <div class="what-you-get-image">
+    <img src="{{ '/assets/images/Highline_Connect_CS_Store_Ordering.jpg' | relative_url }}" alt="Sales rep helping store place order">
+  </div>
+
+  <div class="what-you-get-content">
+
+    <div class="get-card">
+      <h3>Training Resources</h3>
+      <p>Scripts, pitch frameworks, and objection-handling guidance to help you confidently introduce products to retailers.</p>
+    </div>
+
+    <div class="get-card">
+      <h3>Brand Assets</h3>
+      <p>Sell sheets, product highlights, and pricing guidance so you can clearly communicate value in-store.</p>
+    </div>
+
+    <div class="get-card">
+      <h3>Simple Ordering Process</h3>
+      <p>A straightforward process for placing first orders and supporting reorders through brand order portals.</p>
+    </div>
+
+    <div class="get-card">
+      <h3>Growing Brand Catalog</h3>
+      <p>An expanding lineup of innovative brands you can introduce to your local store network.</p>
+    </div>
+
+  </div>
+
+</div>
 
 ## Why Highline Connect
 
