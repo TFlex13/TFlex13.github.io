@@ -221,12 +221,19 @@ to convenience stores and specialty retailers in their communities.
 
 ## Ready to Get Started?
 
-[Apply Today](./apply)
-
----
+<div class="final-cta">
+  <h2>Ready to Get Started?</h2>
+  <p>Take the next step toward building relationships, representing great brands, and earning commission in your territory.</p>
+  <a href="{{ '/apply' | relative_url }}" class="final-cta-button">Apply Today</a>
+</div>
 
 ## Important Notes (Read This)
-- Independent contractor role (1099). You control your schedule and approach.
-- 100% commission-based. No salary or hourly wage.
-- Earnings vary by effort, territory, and results. No income claims or guarantees.
-- Sample kits are your sales tools and typically are not left with stores.
+
+<div class="important-notes-box">
+  <ul>
+    <li><strong>Independent contractor role (1099).</strong> You control your schedule and approach.</li>
+    <li><strong>100% commission-based.</strong> No salary or hourly wage.</li>
+    <li><strong>Earnings vary by effort, territory, and results.</strong> No income claims or guarantees.</li>
+    <li><strong>Sample kits are sales tools.</strong> They are typically not left with stores.</li>
+  </ul>
+</div>
