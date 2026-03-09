@@ -505,24 +505,27 @@ blockquote {
 
 .brand-track {
   display: flex;
-  width: max-content;
-  animation: scroll-brands 40s linear infinite;
+  width: 200%;
+  animation: scroll-brands 35s linear infinite;
 }
 
 .brand-group {
+  width: 100%;
+  min-width: 100%;
   display: flex;
   align-items: center;
-  gap: 50px;
-  flex-shrink: 0;
-  padding-right: 50px;
+  justify-content: space-evenly;
+  gap: 24px;
+  padding: 0 24px;
+  box-sizing: border-box;
 }
 
 .brand-group img {
-  height: 70px;
+  height: 52px;
   width: auto;
-  max-width: 260px;
+  max-width: 140px;
   object-fit: contain;
-  flex-shrink: 0;
+  flex-shrink: 1;
 }
 
 .why-copy h3 {
@@ -545,19 +548,36 @@ blockquote {
   }
 }
 
-/* Mobile */
-@media (max-width: 768px) {
+/* Tablet */
+@media (max-width: 900px) {
   .brand-track {
-    animation-duration: 22s;
+    animation-duration: 28s;
   }
 
   .brand-group {
-    gap: 30px;
-    padding-right: 30px;
+    gap: 18px;
+    padding: 0 18px;
   }
 
   .brand-group img {
-    height: 38px;
-    max-width: 120px;
+    height: 42px;
+    max-width: 110px;
+  }
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .brand-track {
+    animation-duration: 24s;
+  }
+
+  .brand-group {
+    gap: 14px;
+    padding: 0 14px;
+  }
+
+  .brand-group img {
+    height: 32px;
+    max-width: 80px;
   }
 }
