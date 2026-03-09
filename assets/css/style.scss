@@ -649,3 +649,55 @@ blockquote {
 .important-notes-box li:last-child {
   margin-bottom: 0;
 }
+
+/* =========================
+   FOOTER
+========================= */
+
+.site-footer {
+  margin-top: 40px;
+  background: linear-gradient(135deg, #cc0000, #000000);
+  color: #ffffff;
+  border-radius: 12px 12px 0 0;
+  padding: 18px 24px;
+}
+
+.footer-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.footer-left {
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
+.footer-right {
+  display: flex;
+  gap: 18px;
+}
+
+.footer-right a {
+  color: #ffffff !important;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.footer-right a:hover {
+  text-decoration: underline;
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  .footer-inner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-right {
+    justify-content: center;
+  }
+}
