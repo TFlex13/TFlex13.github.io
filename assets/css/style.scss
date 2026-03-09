@@ -581,3 +581,71 @@ blockquote {
     max-width: 80px;
   }
 }
+
+/* =========================
+   FINAL CTA SECTION
+========================= */
+
+.final-cta {
+  text-align: center;
+  padding: 30px 20px;
+  background: #f5f5f5;
+  border-radius: 12px;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.final-cta h2 {
+  margin-bottom: 10px;
+}
+
+.final-cta p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  max-width: 700px;
+  margin: 0 auto 20px auto;
+}
+
+.final-cta-button {
+  display: inline-block;
+  background: #cc0000 !important;
+  color: #ffffff !important;
+  padding: 12px 28px;
+  border-radius: 8px;
+  font-weight: 700;
+  text-decoration: none;
+  transition: 0.2s ease;
+}
+
+.final-cta-button:hover {
+  background: #990000 !important;
+  transform: translateY(-2px);
+}
+
+/* =========================
+   IMPORTANT NOTES BOX
+========================= */
+
+.important-notes-box {
+  background: #f5f5f5;
+  border-left: 4px solid #cc0000;
+  border-radius: 8px;
+  padding: 22px;
+  margin-top: 14px;
+}
+
+.important-notes-box ul {
+  margin: 0;
+  padding-left: 20px;
+}
+
+.important-notes-box li {
+  margin-bottom: 10px;
+  line-height: 1.6;
+  color: #555;
+}
+
+.important-notes-box li:last-child {
+  margin-bottom: 0;
+}
