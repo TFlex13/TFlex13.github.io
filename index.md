@@ -16,7 +16,7 @@ to convenience stores and specialty retailers in their communities.
 
 <div class="hero-video">
 
-<video autoplay muted loop playsinline>
+<video autoplay muted loop playsinline controls>
   <source src="{{ '/assets/Videos/HLC_Corp_compressed.mp4' | relative_url }}" type="video/mp4">
 </video>
 
