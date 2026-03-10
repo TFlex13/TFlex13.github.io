@@ -85,10 +85,6 @@ to convenience stores and specialty retailers in their communities.
     </div>
   </div>
 
-  <div class="fit-warning">
-    <strong>This is not a fit</strong> if you’re looking for hourly pay, a guaranteed schedule, or guaranteed earnings.
-  </div>
-
 </div>
 
 ---
