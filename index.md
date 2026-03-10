@@ -224,8 +224,18 @@ to convenience stores and specialty retailers in their communities.
 ## Ready to Get Started?
 
 <div class="final-cta">
-  <p>Take the next step toward building relationships, representing great brands, and earning commission in your territory.</p>
-  <a href="{{ '/apply' | relative_url }}" class="final-cta-button">Apply Today</a>
+
+<h2>Start Building Your Territory Today</h2>
+
+<p>
+Represent innovative brands, build relationships with local retailers,
+and earn commission plus residual income.
+</p>
+
+<a href="{{ '/apply' | relative_url }}" class="final-cta-button">
+Apply Today
+</a>
+
 </div>
 
 ## Important Notes (Read This)
