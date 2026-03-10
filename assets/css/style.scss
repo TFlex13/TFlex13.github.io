@@ -772,3 +772,77 @@ blockquote {
   border-radius: 12px;
   display: block;
 }
+
+/* =========================
+   FINAL CTA SECTION
+========================= */
+
+.final-cta {
+  text-align: center;
+  padding: 90px 30px;
+  margin-top: 30px;
+  margin-bottom: 40px;
+
+  background: #f5f5f5;
+  border-radius: 16px;
+
+  position: relative;
+  overflow: hidden;
+}
+
+/* faint pattern overlay */
+
+.final-cta::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+
+  background-image: url("/assets/images/growth-pattern.svg");
+  background-size: 520px;
+  background-repeat: repeat;
+
+  opacity: 0.06;
+  pointer-events: none;
+}
+
+/* keep content above pattern */
+
+.final-cta > * {
+  position: relative;
+  z-index: 2;
+}
+
+.final-cta h2 {
+  font-size: 2.2rem;
+  margin-bottom: 16px;
+}
+
+.final-cta p {
+  font-size: 1.1rem;
+  max-width: 720px;
+  margin: 0 auto 28px auto;
+  color: #555;
+  line-height: 1.7;
+}
+
+/* CTA button */
+
+.final-cta-button {
+  display: inline-block;
+  background: #cc0000;
+  color: #ffffff !important;
+
+  padding: 16px 40px;
+  border-radius: 10px;
+
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none;
+
+  transition: 0.2s ease;
+}
+
+.final-cta-button:hover {
+  background: #990000;
+  transform: translateY(-2px);
+}
