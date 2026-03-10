@@ -797,11 +797,13 @@ blockquote {
   position: absolute;
   inset: 0;
 
-  background-image: url("/assets/images/growth-pattern.svg");
-  background-size: 520px;
-  background-repeat: repeat;
+  background: radial-gradient(
+    circle at center,
+    rgba(204, 0, 0, 0.08),
+    rgba(204, 0, 0, 0.02) 40%,
+    transparent 70%
+  );
 
-  opacity: 0.06;
   pointer-events: none;
 }
 
@@ -823,6 +825,10 @@ blockquote {
   margin: 0 auto 28px auto;
   color: #555;
   line-height: 1.7;
+}
+
+.final-cta h2 {
+  font-size: 2.4rem;
 }
 
 /* CTA button */
