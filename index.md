@@ -225,11 +225,11 @@ to convenience stores and specialty retailers in their communities.
 
 <div class="final-cta">
 
-<h2>Start Building Your Territory Today</h2>
+<h2>Start Building Your Accounts Today</h2>
 
 <p>
 Represent innovative brands, build relationships with local retailers,
-and earn commission plus residual income.
+and earn commission plus residual income as your accounts reorder.
 </p>
 
 <a href="{{ '/apply' | relative_url }}" class="final-cta-button">
