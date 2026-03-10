@@ -797,12 +797,18 @@ blockquote {
   position: absolute;
   inset: 0;
 
-  background: radial-gradient(
-    circle at center,
-    rgba(204, 0, 0, 0.08),
-    rgba(204, 0, 0, 0.02) 40%,
-    transparent 70%
-  );
+  background-image:
+    radial-gradient(
+      circle at center,
+      rgba(204, 0, 0, 0.08),
+      rgba(204, 0, 0, 0.02) 40%,
+      transparent 70%
+    ),
+    url("/assets/images/opportunity-pattern.svg");
+
+  background-repeat: no-repeat, no-repeat;
+  background-position: center, center;
+  background-size: auto, cover;
 
   pointer-events: none;
 }
