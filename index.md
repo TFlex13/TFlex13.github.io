@@ -41,9 +41,9 @@ to convenience stores and specialty retailers in their communities.
   Our independent sales reps visit convenience stores, general stores, and specialty retailers in their territories to introduce innovative products and secure shelf placement.
 </p>
 
-<h3>Territory Ownership</h3>
+<h3>Account Ownership</h3>
 <p>
-  When a rep brings a store on board, that store becomes part of their territory.
+  When a rep brings a store on board, that store becomes their account.
   Reps earn commission not only on the first order, but also on future reorders, creating long-term residual income.
 </p>
 
