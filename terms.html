@@ -1,0 +1,480 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terms & Conditions | Highline Connect</title>
+  <meta name="description" content="Read the Terms & Conditions for using the Highline Connect website and services." />
+  <style>
+    :root {
+      --bg: #0b0b0f;
+      --panel: #13131a;
+      --panel-2: #1a1a24;
+      --text: #f5f5f7;
+      --muted: #b3b3bf;
+      --line: rgba(255,255,255,0.08);
+      --gold: #d6a84f;
+      --gold-soft: rgba(214,168,79,0.14);
+      --max-width: 1000px;
+      --radius: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at top, rgba(214,168,79,0.08), transparent 35%),
+        linear-gradient(180deg, #0b0b0f 0%, #101018 100%);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    a {
+      color: var(--gold);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .wrap {
+      width: min(var(--max-width), calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(12px);
+      background: rgba(11,11,15,0.82);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .topbar-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      min-height: 72px;
+      gap: 16px;
+    }
+
+    .brand {
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      color: var(--text);
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 14px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255,255,255,0.02);
+      color: var(--text);
+    }
+
+    .hero {
+      padding: 64px 0 28px;
+    }
+
+    .hero-card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.015));
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      padding: 36px;
+      box-shadow: 0 18px 60px rgba(0,0,0,0.35);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 14px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: var(--gold-soft);
+      border: 1px solid rgba(214,168,79,0.18);
+      color: var(--gold);
+      font-size: 0.84rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2rem, 4vw, 3.4rem);
+      line-height: 1.1;
+    }
+
+    .hero p {
+      margin: 0;
+      max-width: 760px;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .meta {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .content {
+      padding: 20px 0 80px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      gap: 24px;
+      align-items: start;
+    }
+
+    .toc,
+    .terms-card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: 0 16px 40px rgba(0,0,0,0.24);
+    }
+
+    .toc {
+      position: sticky;
+      top: 95px;
+      padding: 20px;
+    }
+
+    .toc h2 {
+      margin: 0 0 12px;
+      font-size: 1rem;
+      color: var(--text);
+    }
+
+    .toc a {
+      display: block;
+      padding: 8px 0;
+      color: var(--muted);
+      font-size: 0.96rem;
+    }
+
+    .toc a:hover {
+      color: var(--gold);
+      text-decoration: none;
+    }
+
+    .terms-card {
+      padding: 30px;
+    }
+
+    .terms-card section + section {
+      margin-top: 30px;
+      padding-top: 30px;
+      border-top: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.35rem;
+      color: var(--text);
+    }
+
+    p, li {
+      color: var(--muted);
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .notice {
+      margin-top: 14px;
+      padding: 14px 16px;
+      border-radius: 14px;
+      border: 1px solid rgba(214,168,79,0.18);
+      background: rgba(214,168,79,0.08);
+      color: #f2e3be;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 28px 0 40px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 860px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .toc {
+        position: static;
+      }
+
+      .hero-card,
+      .terms-card {
+        padding: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <div class="brand">Highline Connect</div>
+      <a class="back-link" href="index.html">← Back to Home</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-card">
+          <div class="eyebrow">Legal</div>
+          <h1>Terms & Conditions</h1>
+          <p>
+            These Terms & Conditions govern your access to and use of the Highline Connect website,
+            including any content, forms, communications, and services made available through the site.
+          </p>
+          <div class="meta">
+            Effective Date: <strong>[INSERT EFFECTIVE DATE]</strong><br />
+            Last Updated: <strong>[INSERT LAST UPDATED DATE]</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="wrap">
+        <div class="grid">
+          <aside class="toc">
+            <h2>On this page</h2>
+            <a href="#acceptance">1. Acceptance of Terms</a>
+            <a href="#use">2. Website Use</a>
+            <a href="#services">3. Services & Information</a>
+            <a href="#quotes">4. Quotes, Orders & Availability</a>
+            <a href="#communications">5. Communications</a>
+            <a href="#ip">6. Intellectual Property</a>
+            <a href="#third-party">7. Third-Party Links</a>
+            <a href="#disclaimer">8. Disclaimers</a>
+            <a href="#liability">9. Limitation of Liability</a>
+            <a href="#indemnification">10. Indemnification</a>
+            <a href="#privacy">11. Privacy</a>
+            <a href="#termination">12. Suspension or Termination</a>
+            <a href="#law">13. Governing Law</a>
+            <a href="#changes">14. Changes to Terms</a>
+            <a href="#contact">15. Contact Information</a>
+          </aside>
+
+          <article class="terms-card">
+            <section id="acceptance">
+              <h2>1. Acceptance of Terms</h2>
+              <p>
+                By accessing or using this website, you agree to be bound by these Terms & Conditions.
+                If you do not agree to these Terms, please do not use this website.
+              </p>
+            </section>
+
+            <section id="use">
+              <h2>2. Website Use</h2>
+              <p>
+                You agree to use this website only for lawful purposes and in a manner that does not
+                infringe the rights of, restrict, or inhibit the use of this website by any third party.
+              </p>
+              <ul>
+                <li>Attempt to gain unauthorized access to the site, servers, or connected systems.</li>
+                <li>Use the site to transmit spam, malware, or other harmful code.</li>
+                <li>Submit false, misleading, or fraudulent information through any form or communication channel.</li>
+                <li>Copy, scrape, reproduce, or republish website content without prior written permission.</li>
+              </ul>
+            </section>
+
+            <section id="services">
+              <h2>3. Services & Information</h2>
+              <p>
+                Highline Connect may provide information about products, services, solutions, pricing,
+                service areas, or business opportunities through this website. All website content is
+                provided for general informational purposes only and may be updated or changed at any time
+                without notice.
+              </p>
+              <p>
+                We make reasonable efforts to keep information accurate, but we do not guarantee that all
+                descriptions, availability, pricing, timelines, or service details are always complete,
+                current, or error-free.
+              </p>
+            </section>
+
+            <section id="quotes">
+              <h2>4. Quotes, Orders & Availability</h2>
+              <p>
+                Any quote, estimate, proposal, or service inquiry submitted through this website does not
+                create a binding agreement unless and until confirmed in writing by Highline Connect.
+              </p>
+              <p>
+                Availability of services, pricing, timelines, and deliverables may vary based on location,
+                scope, partner availability, technical requirements, and other business considerations.
+              </p>
+            </section>
+
+            <section id="communications">
+              <h2>5. Communications</h2>
+              <p>
+                By submitting your contact information through this website, you authorize Highline Connect
+                to contact you regarding your inquiry, requested services, account-related matters, or
+                relevant business communications.
+              </p>
+              <p>
+                If your website includes form submissions, newsletter signups, SMS opt-ins, or appointment
+                requests, you should also make sure your Privacy Policy and consent language match the way
+                you actually collect and use data.
+              </p>
+              <div class="notice">
+                Optional add-on: if you plan to use SMS marketing or automated texts, this section should be
+                expanded with TCPA-style consent language and opt-out terms.
+              </div>
+            </section>
+
+            <section id="ip">
+              <h2>6. Intellectual Property</h2>
+              <p>
+                All content on this website, including but not limited to text, graphics, branding, logos,
+                design elements, icons, images, downloads, code, and layout, is the property of Highline Connect
+                or its licensors and is protected by applicable intellectual property laws.
+              </p>
+              <p>
+                You may not reproduce, distribute, modify, create derivative works from, publicly display,
+                or commercially exploit any website content without prior written consent.
+              </p>
+            </section>
+
+            <section id="third-party">
+              <h2>7. Third-Party Links</h2>
+              <p>
+                This website may contain links to third-party websites, tools, or resources for convenience.
+                Highline Connect does not control and is not responsible for the availability, content,
+                policies, or practices of third-party sites.
+              </p>
+              <p>
+                Accessing any third-party website is done at your own risk.
+              </p>
+            </section>
+
+            <section id="disclaimer">
+              <h2>8. Disclaimers</h2>
+              <p>
+                This website and all content made available through it are provided on an “as is” and
+                “as available” basis without warranties of any kind, whether express or implied, to the
+                fullest extent permitted by law.
+              </p>
+              <p>
+                Highline Connect disclaims all warranties, including but not limited to implied warranties
+                of merchantability, fitness for a particular purpose, non-infringement, accuracy, and
+                uninterrupted availability.
+              </p>
+            </section>
+
+            <section id="liability">
+              <h2>9. Limitation of Liability</h2>
+              <p>
+                To the fullest extent permitted by law, Highline Connect shall not be liable for any direct,
+                indirect, incidental, consequential, special, exemplary, or punitive damages arising out of
+                or relating to your use of, or inability to use, this website or any content, forms, or
+                linked resources available through it.
+              </p>
+              <p>
+                This limitation applies even if Highline Connect has been advised of the possibility of such damages.
+              </p>
+            </section>
+
+            <section id="indemnification">
+              <h2>10. Indemnification</h2>
+              <p>
+                You agree to defend, indemnify, and hold harmless Highline Connect, its owners, officers,
+                employees, contractors, affiliates, and partners from and against any claims, liabilities,
+                damages, losses, and expenses arising from your violation of these Terms or misuse of the website.
+              </p>
+            </section>
+
+            <section id="privacy">
+              <h2>11. Privacy</h2>
+              <p>
+                Your use of this website may also be governed by our Privacy Policy. If you collect personal
+                information through contact forms, analytics tools, cookies, chat widgets, or lead capture
+                tools, you should publish a separate Privacy Policy and link it here.
+              </p>
+              <p>
+                Example: <a href="privacy.html">View Privacy Policy</a>
+              </p>
+            </section>
+
+            <section id="termination">
+              <h2>12. Suspension or Termination</h2>
+              <p>
+                Highline Connect reserves the right to suspend, restrict, or terminate access to the website
+                at any time, without notice, for conduct believed to violate these Terms or to be harmful to
+                the website, business, or other users.
+              </p>
+            </section>
+
+            <section id="law">
+              <h2>13. Governing Law</h2>
+              <p>
+                These Terms & Conditions shall be governed by and construed in accordance with the laws of the
+                State of <strong>[INSERT STATE]</strong>, without regard to its conflict of law principles.
+              </p>
+              <p>
+                Any disputes arising out of or relating to these Terms or your use of the website shall be
+                resolved in the state or federal courts located in <strong>[INSERT COUNTY / STATE]</strong>,
+                and you consent to the jurisdiction of those courts.
+              </p>
+            </section>
+
+            <section id="changes">
+              <h2>14. Changes to Terms</h2>
+              <p>
+                Highline Connect may update or revise these Terms & Conditions at any time by posting the
+                revised version on this page. Your continued use of the website after any changes become
+                effective constitutes your acceptance of the updated Terms.
+              </p>
+            </section>
+
+            <section id="contact">
+              <h2>15. Contact Information</h2>
+              <p>
+                If you have questions about these Terms & Conditions, please contact:
+              </p>
+              <p>
+                <strong>Highline Connect</strong><br />
+                Email: <a href="mailto:info@highlineconnect.com">info@highlineconnect.com</a><br />
+              </p>
+            </section>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      © <span id="year"></span> Highline Connect. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
