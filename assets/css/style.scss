@@ -760,3 +760,20 @@ blockquote {
   }
 
 }
+
+/* =========================
+   HERO VIDEO
+========================= */
+
+.hero-video {
+  margin-top: 25px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.hero-video video {
+  width: 100%;
+  border-radius: 12px;
+  display: block;
+}
