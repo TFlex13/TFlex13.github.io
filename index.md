@@ -5,8 +5,6 @@ title: Highline Connect
 
 <div class="hero-intro">
 
-<h1>Highline Connect</h1>
-
 <p class="hero-sub">
 Independent sales built for real-world relationships.
 </p>
@@ -15,6 +13,14 @@ Independent sales built for real-world relationships.
 Join a national network of independent sales reps introducing innovative brands
 to convenience stores and specialty retailers in their communities.
 </p>
+
+<div class="hero-video">
+
+<video autoplay muted loop playsinline>
+  <source src="{{ '/assets/Videos/HLC_Corp_compressed.mp4' | relative_url }}" type="video/mp4">
+</video>
+
+</div>
 
 </div>
 ---
