@@ -1,293 +1,470 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Privacy Policy | Highline Connect</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy | Highline Connect</title>
+  <meta
+    name="description"
+    content="Read the Privacy Policy for Highline Connect and learn how we collect, use, and protect personal information."
+  />
+  <style>
+    :root {
+      --bg: #0b0b0f;
+      --panel: #13131a;
+      --panel-2: #1a1a24;
+      --text: #f5f5f7;
+      --muted: #b3b3bf;
+      --line: rgba(255, 255, 255, 0.08);
+      --gold: #d6a84f;
+      --gold-soft: rgba(214, 168, 79, 0.14);
+      --max-width: 1000px;
+      --radius: 18px;
+    }
 
-<meta name="description" content="Privacy Policy explaining how Highline Connect collects, uses, and protects personal information.">
+    * {
+      box-sizing: border-box;
+    }
 
-<style>
-:root{
---bg:#0b0b0f;
---panel:#13131a;
---text:#f5f5f7;
---muted:#b3b3bf;
---line:rgba(255,255,255,.08);
---gold:#d6a84f;
---max-width:1000px;
-}
+    html {
+      scroll-behavior: smooth;
+    }
 
-body{
-margin:0;
-font-family:Arial, Helvetica, sans-serif;
-background:
-radial-gradient(circle at top, rgba(214,168,79,.08), transparent 35%),
-linear-gradient(180deg,#0b0b0f,#101018);
-color:var(--text);
-line-height:1.7;
-}
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at top, rgba(214, 168, 79, 0.08), transparent 35%),
+        linear-gradient(180deg, #0b0b0f 0%, #101018 100%);
+      color: var(--text);
+      line-height: 1.7;
+    }
 
-.wrap{
-width:min(var(--max-width), calc(100% - 32px));
-margin:auto;
-}
+    a {
+      color: var(--gold);
+      text-decoration: none;
+    }
 
-header{
-border-bottom:1px solid var(--line);
-background:rgba(11,11,15,.85);
-position:sticky;
-top:0;
-}
+    a:hover {
+      text-decoration: underline;
+    }
 
-.top{
-display:flex;
-justify-content:space-between;
-align-items:center;
-height:72px;
-}
+    .wrap {
+      width: min(var(--max-width), calc(100% - 32px));
+      margin: 0 auto;
+    }
 
-h1{
-font-size:clamp(2rem,4vw,3rem);
-margin:0 0 12px 0;
-}
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(12px);
+      background: rgba(11, 11, 15, 0.82);
+      border-bottom: 1px solid var(--line);
+    }
 
-.hero{
-padding:60px 0 20px;
-}
+    .topbar-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      min-height: 72px;
+      gap: 16px;
+    }
 
-.card{
-background:var(--panel);
-border:1px solid var(--line);
-border-radius:18px;
-padding:32px;
-box-shadow:0 18px 60px rgba(0,0,0,.35);
-}
+    .brand {
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      color: var(--text);
+    }
 
-section{
-margin-top:30px;
-padding-top:30px;
-border-top:1px solid var(--line);
-}
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 14px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.02);
+      color: var(--text);
+      transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+    }
 
-h2{
-margin-bottom:12px;
-}
+    .back-link:hover {
+      text-decoration: none;
+      background: rgba(255, 255, 255, 0.05);
+      border-color: rgba(214, 168, 79, 0.22);
+      transform: translateY(-1px);
+    }
 
-p,li{
-color:var(--muted);
-}
+    .hero {
+      padding: 64px 0 28px;
+    }
 
-footer{
-margin-top:60px;
-border-top:1px solid var(--line);
-padding:25px 0;
-color:var(--muted);
-}
+    .hero-card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.015));
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      padding: 36px;
+      box-shadow: 0 18px 60px rgba(0,0,0,0.35);
+    }
 
-a{
-color:var(--gold);
-text-decoration:none;
-}
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 14px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: var(--gold-soft);
+      border: 1px solid rgba(214,168,79,0.18);
+      color: var(--gold);
+      font-size: 0.84rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
 
-a:hover{
-text-decoration:underline;
-}
-</style>
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2rem, 4vw, 3.4rem);
+      line-height: 1.1;
+    }
+
+    .hero p {
+      margin: 0;
+      max-width: 760px;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .meta {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .content {
+      padding: 20px 0 80px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      gap: 24px;
+      align-items: start;
+    }
+
+    .toc,
+    .policy-card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: 0 16px 40px rgba(0,0,0,0.24);
+    }
+
+    .toc {
+      position: sticky;
+      top: 95px;
+      padding: 20px;
+    }
+
+    .toc h2 {
+      margin: 0 0 12px;
+      font-size: 1rem;
+      color: var(--text);
+    }
+
+    .toc a {
+      display: block;
+      padding: 8px 0;
+      color: var(--muted);
+      font-size: 0.96rem;
+    }
+
+    .toc a:hover {
+      color: var(--gold);
+      text-decoration: none;
+    }
+
+    .policy-card {
+      padding: 30px;
+    }
+
+    .policy-card section + section {
+      margin-top: 30px;
+      padding-top: 30px;
+      border-top: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.35rem;
+      color: var(--text);
+    }
+
+    p,
+    li {
+      color: var(--muted);
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .notice {
+      margin-top: 14px;
+      padding: 14px 16px;
+      border-radius: 14px;
+      border: 1px solid rgba(214,168,79,0.18);
+      background: rgba(214,168,79,0.08);
+      color: #f2e3be;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 28px 0 40px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 860px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .toc {
+        position: static;
+      }
+
+      .hero-card,
+      .policy-card {
+        padding: 24px;
+      }
+    }
+  </style>
 </head>
-
 <body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <div class="brand">Highline Connect</div>
+      <a class="back-link" href="index.html">← Back to Home</a>
+    </div>
+  </header>
 
-<header>
-<div class="wrap top">
-<strong>Highline Connect</strong>
-<a href="index.html">← Back to Home</a>
-</div>
-</header>
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-card">
+          <div class="eyebrow">Legal</div>
+          <h1>Privacy Policy</h1>
+          <p>
+            This Privacy Policy describes how Highline Connect collects, uses, stores,
+            and protects information when you visit our website, submit a form, or
+            otherwise communicate with us.
+          </p>
+          <div class="meta">
+            Last Updated: <strong>March 6th, 2026</strong>
+          </div>
+        </div>
+      </div>
+    </section>
 
-<main class="wrap hero">
+    <section class="content">
+      <div class="wrap">
+        <div class="grid">
+          <aside class="toc">
+            <h2>On this page</h2>
+            <a href="#information-collect">1. Information We Collect</a>
+            <a href="#how-we-use">2. How We Use Your Information</a>
+            <a href="#sharing">3. Sharing of Information</a>
+            <a href="#cookies">4. Cookies & Analytics</a>
+            <a href="#security">5. Data Security</a>
+            <a href="#california-rights">6. California Privacy Rights</a>
+            <a href="#retention">7. Data Retention</a>
+            <a href="#third-party-links">8. Third-Party Links</a>
+            <a href="#children">9. Children's Privacy</a>
+            <a href="#updates">10. Updates to this Policy</a>
+            <a href="#contact">11. Contact Information</a>
+          </aside>
 
-<div class="card">
+          <article class="policy-card">
+            <section id="information-collect">
+              <h2>1. Information We Collect</h2>
+              <p>
+                We may collect the following categories of information:
+              </p>
+              <ul>
+                <li>Name</li>
+                <li>Email address</li>
+                <li>Phone number</li>
+                <li>Company name</li>
+                <li>Information submitted through contact forms</li>
+                <li>IP address and browser/device information</li>
+                <li>Website usage analytics</li>
+              </ul>
+              <p>
+                This information may be provided directly by you or collected automatically
+                when you interact with our website.
+              </p>
+            </section>
 
-<h1>Privacy Policy</h1>
+            <section id="how-we-use">
+              <h2>2. How We Use Your Information</h2>
+              <p>
+                We use collected information to:
+              </p>
+              <ul>
+                <li>Respond to inquiries or service requests</li>
+                <li>Provide quotes or information about our services</li>
+                <li>Communicate with potential clients</li>
+                <li>Improve website functionality and performance</li>
+                <li>Monitor site usage and analytics</li>
+                <li>Maintain security and prevent fraud</li>
+              </ul>
+            </section>
 
-<p>
-This Privacy Policy describes how Highline Connect collects, uses, and protects
-information when you visit our website or communicate with us.
-</p>
+            <section id="sharing">
+              <h2>3. Sharing of Information</h2>
+              <p>
+                Highline Connect does not sell personal information for money. We may
+                share information with trusted service providers who assist with operating
+                our website, communications, analytics, hosting, lead intake, or related
+                business operations.
+              </p>
+              <p>
+                These providers are expected to handle information appropriately and only
+                to the extent necessary to perform services on our behalf.
+              </p>
+            </section>
 
-<p>
-Effective Date: <strong>March, 6th 2026</strong>
-</p>
+            <section id="cookies">
+              <h2>4. Cookies & Analytics</h2>
+              <p>
+                Our website may use cookies, analytics tools, or similar technologies to
+                understand how visitors interact with the site.
+              </p>
+              <p>
+                These tools may collect information such as:
+              </p>
+              <ul>
+                <li>Pages visited</li>
+                <li>Time spent on pages</li>
+                <li>General geographic region</li>
+                <li>Browser type</li>
+                <li>Device type</li>
+                <li>Referral source</li>
+              </ul>
+              <p>
+                This information helps us improve website performance, usability, and
+                marketing effectiveness.
+              </p>
+              <div class="notice">
+                Optional add-on: if you install Meta Pixel, Google Analytics, call tracking,
+                or ad retargeting later, this section should be expanded to mention those tools specifically.
+              </div>
+            </section>
 
-<section>
-<h2>1. Information We Collect</h2>
+            <section id="security">
+              <h2>5. Data Security</h2>
+              <p>
+                We take reasonable administrative, technical, and physical safeguards to
+                protect personal information from unauthorized access, misuse, alteration,
+                or disclosure.
+              </p>
+              <p>
+                However, no method of transmission over the internet or method of electronic
+                storage can be guaranteed to be completely secure.
+              </p>
+            </section>
 
-<p>We may collect the following categories of information:</p>
+            <section id="california-rights">
+              <h2>6. California Privacy Rights</h2>
+              <p>
+                If you are a California resident, you may have certain rights under California
+                privacy laws, including the California Consumer Privacy Act (CCPA), as amended
+                by the California Privacy Rights Act (CPRA), where applicable.
+              </p>
+              <p>
+                Depending on the circumstances, these rights may include:
+              </p>
+              <ul>
+                <li>Requesting access to the personal information we hold about you</li>
+                <li>Requesting correction of inaccurate personal information</li>
+                <li>Requesting deletion of personal information</li>
+                <li>Requesting information about how personal information is used or disclosed</li>
+                <li>Opting out of the sale or sharing of personal information, if applicable</li>
+                <li>Not being discriminated against for exercising your privacy rights</li>
+              </ul>
+              <p>
+                At this time, Highline Connect does not state that it sells personal information
+                for monetary value. If our practices change, this Privacy Policy will be updated accordingly.
+              </p>
+              <p>
+                To submit a privacy-related request, please contact us using the contact information below.
+              </p>
+            </section>
 
-<ul>
-<li>Name</li>
-<li>Email address</li>
-<li>Phone number</li>
-<li>Company name</li>
-<li>Information submitted through contact forms</li>
-<li>IP address and browser/device information</li>
-<li>Website usage analytics</li>
-</ul>
+            <section id="retention">
+              <h2>7. Data Retention</h2>
+              <p>
+                We retain personal information only for as long as reasonably necessary to
+                fulfill the purposes described in this Privacy Policy, comply with legal
+                obligations, resolve disputes, and enforce agreements.
+              </p>
+            </section>
 
-<p>
-This information may be provided directly by you or collected automatically
-when you interact with our website.
-</p>
-</section>
+            <section id="third-party-links">
+              <h2>8. Third-Party Links</h2>
+              <p>
+                Our website may contain links to third-party websites or services. We are not
+                responsible for the privacy practices, content, or security of those external sites.
+              </p>
+              <p>
+                We encourage users to review the privacy policies of any third-party websites they visit.
+              </p>
+            </section>
 
-<section>
-<h2>2. How We Use Your Information</h2>
+            <section id="children">
+              <h2>9. Children's Privacy</h2>
+              <p>
+                This website is not directed to children under the age of 13, and we do not knowingly
+                collect personal information from children under 13 through this website.
+              </p>
+            </section>
 
-<p>We use collected information to:</p>
+            <section id="updates">
+              <h2>10. Updates to this Policy</h2>
+              <p>
+                We may update this Privacy Policy from time to time. Any updates will be posted on this
+                page with a revised effective date or last updated date.
+              </p>
+            </section>
 
-<ul>
-<li>Respond to inquiries or service requests</li>
-<li>Provide quotes or information about our services</li>
-<li>Communicate with potential clients</li>
-<li>Improve website functionality and performance</li>
-<li>Monitor site usage and analytics</li>
-<li>Maintain security and prevent fraud</li>
-</ul>
-</section>
+            <section id="contact">
+              <h2>11. Contact Information</h2>
+              <p>
+                If you have questions about this Privacy Policy or wish to exercise any privacy-related rights,
+                please contact:
+              </p>
+              <p>
+                <strong>Highline Connect</strong><br />
+                Email: <a href="mailto:info@highlineconnect.com">info@highlineconnect.com</a><br />
+              </p>
+            </section>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
 
-<section>
-<h2>3. Sharing of Information</h2>
+  <footer>
+    <div class="wrap">
+      © <span id="year"></span> Highline Connect. All rights reserved.
+    </div>
+  </footer>
 
-<p>
-Highline Connect does not sell personal information. We may share information
-with trusted service providers who assist with operating our website,
-communications, analytics, or business operations.
-</p>
-
-<p>
-These providers are contractually required to protect your information.
-</p>
-</section>
-
-<section>
-<h2>4. Cookies and Analytics</h2>
-
-<p>
-Our website may use cookies or analytics tools to understand how visitors
-interact with the site.
-</p>
-
-<p>
-These tools may collect anonymized information such as:
-</p>
-
-<ul>
-<li>Pages visited</li>
-<li>Time spent on pages</li>
-<li>General geographic region</li>
-<li>Browser type</li>
-</ul>
-
-<p>
-This information helps us improve website performance and user experience.
-</p>
-</section>
-
-<section>
-<h2>5. Data Security</h2>
-
-<p>
-We take reasonable administrative, technical, and physical safeguards to
-protect personal information from unauthorized access, misuse, or disclosure.
-</p>
-
-<p>
-However, no method of transmission over the internet can be guaranteed to be
-completely secure.
-</p>
-</section>
-
-<section>
-<h2>6. California Privacy Rights</h2>
-
-<p>
-If you are a California resident, you may have rights under the
-:contentReference[oaicite:2]{index=2} and
-:contentReference[oaicite:3]{index=3}.
-</p>
-
-<p>These rights may include:</p>
-
-<ul>
-<li>Requesting access to personal information we hold about you</li>
-<li>Requesting correction of inaccurate data</li>
-<li>Requesting deletion of personal information</li>
-<li>Opting out of the sale or sharing of personal data</li>
-<li>Limiting the use of sensitive personal information</li>
-</ul>
-
-<p>
-To submit a privacy request, contact us using the information below.
-</p>
-</section>
-
-<section>
-<h2>7. Data Retention</h2>
-
-<p>
-We retain personal information only as long as necessary to fulfill business
-purposes, comply with legal obligations, resolve disputes, and enforce
-agreements.
-</p>
-</section>
-
-<section>
-<h2>8. Third-Party Links</h2>
-
-<p>
-Our website may contain links to third-party websites. We are not responsible
-for the privacy practices or content of those external sites.
-</p>
-</section>
-
-<section>
-<h2>9. Updates to this Policy</h2>
-
-<p>
-We may update this Privacy Policy periodically. Updates will be posted on this
-page with a revised effective date.
-</p>
-</section>
-
-<section>
-<h2>10. Contact Information</h2>
-
-<p>
-If you have questions about this Privacy Policy or wish to exercise your
-privacy rights, contact:
-</p>
-
-<p>
-<strong>Highline Connect</strong><br>
-Email: <a href="mailto:info@highlineconnect.com">info@highlineconnect.com</a><br>
-</p>
-
-</section>
-
-</div>
-
-</main>
-
-<footer>
-<div class="wrap">
-© <span id="year"></span> Highline Connect
-</div>
-</footer>
-
-<script>
-document.getElementById("year").textContent = new Date().getFullYear();
-</script>
-
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
