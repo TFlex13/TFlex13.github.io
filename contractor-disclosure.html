@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contractor Disclosure | Highline Connect</title>
+  <meta
+    name="description"
+    content="Read the Contractor Disclosure for Highline Connect regarding independent contractors, subcontractors, and third-party service providers."
+  />
+  <style>
+    :root {
+      --bg: #0b0b0f;
+      --panel: #13131a;
+      --panel-2: #1a1a24;
+      --text: #f5f5f7;
+      --muted: #b3b3bf;
+      --line: rgba(255, 255, 255, 0.08);
+      --gold: #d6a84f;
+      --gold-soft: rgba(214, 168, 79, 0.14);
+      --max-width: 1000px;
+      --radius: 18px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      margin: 0;
+      font-family: Arial, Helvetica, sans-serif;
+      background:
+        radial-gradient(circle at top, rgba(214, 168, 79, 0.08), transparent 35%),
+        linear-gradient(180deg, #0b0b0f 0%, #101018 100%);
+      color: var(--text);
+      line-height: 1.7;
+    }
+
+    a {
+      color: var(--gold);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .wrap {
+      width: min(var(--max-width), calc(100% - 32px));
+      margin: 0 auto;
+    }
+
+    .topbar {
+      position: sticky;
+      top: 0;
+      z-index: 20;
+      backdrop-filter: blur(12px);
+      background: rgba(11, 11, 15, 0.82);
+      border-bottom: 1px solid var(--line);
+    }
+
+    .topbar-inner {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      min-height: 72px;
+      gap: 16px;
+    }
+
+    .brand {
+      font-size: 1.1rem;
+      font-weight: 700;
+      letter-spacing: 0.04em;
+      color: var(--text);
+    }
+
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 10px 14px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      background: rgba(255, 255, 255, 0.02);
+      color: var(--text);
+      transition: background 0.2s ease, border-color 0.2s ease, transform 0.2s ease;
+    }
+
+    .back-link:hover {
+      text-decoration: none;
+      background: rgba(255, 255, 255, 0.05);
+      border-color: rgba(214, 168, 79, 0.22);
+      transform: translateY(-1px);
+    }
+
+    .hero {
+      padding: 64px 0 28px;
+    }
+
+    .hero-card {
+      background: linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.015));
+      border: 1px solid var(--line);
+      border-radius: 28px;
+      padding: 36px;
+      box-shadow: 0 18px 60px rgba(0,0,0,0.35);
+    }
+
+    .eyebrow {
+      display: inline-block;
+      margin-bottom: 14px;
+      padding: 8px 12px;
+      border-radius: 999px;
+      background: var(--gold-soft);
+      border: 1px solid rgba(214,168,79,0.18);
+      color: var(--gold);
+      font-size: 0.84rem;
+      font-weight: 700;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+    }
+
+    h1 {
+      margin: 0 0 12px;
+      font-size: clamp(2rem, 4vw, 3.4rem);
+      line-height: 1.1;
+    }
+
+    .hero p {
+      margin: 0;
+      max-width: 760px;
+      color: var(--muted);
+      font-size: 1.05rem;
+    }
+
+    .meta {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .content {
+      padding: 20px 0 80px;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: 260px 1fr;
+      gap: 24px;
+      align-items: start;
+    }
+
+    .toc,
+    .disclosure-card {
+      background: var(--panel);
+      border: 1px solid var(--line);
+      border-radius: var(--radius);
+      box-shadow: 0 16px 40px rgba(0,0,0,0.24);
+    }
+
+    .toc {
+      position: sticky;
+      top: 95px;
+      padding: 20px;
+    }
+
+    .toc h2 {
+      margin: 0 0 12px;
+      font-size: 1rem;
+      color: var(--text);
+    }
+
+    .toc a {
+      display: block;
+      padding: 8px 0;
+      color: var(--muted);
+      font-size: 0.96rem;
+    }
+
+    .toc a:hover {
+      color: var(--gold);
+      text-decoration: none;
+    }
+
+    .disclosure-card {
+      padding: 30px;
+    }
+
+    .disclosure-card section + section {
+      margin-top: 30px;
+      padding-top: 30px;
+      border-top: 1px solid var(--line);
+    }
+
+    h2 {
+      margin: 0 0 12px;
+      font-size: 1.35rem;
+      color: var(--text);
+    }
+
+    p,
+    li {
+      color: var(--muted);
+    }
+
+    ul {
+      margin: 0;
+      padding-left: 20px;
+    }
+
+    .notice {
+      margin-top: 14px;
+      padding: 14px 16px;
+      border-radius: 14px;
+      border: 1px solid rgba(214,168,79,0.18);
+      background: rgba(214,168,79,0.08);
+      color: #f2e3be;
+    }
+
+    footer {
+      border-top: 1px solid var(--line);
+      padding: 28px 0 40px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 860px) {
+      .grid {
+        grid-template-columns: 1fr;
+      }
+
+      .toc {
+        position: static;
+      }
+
+      .hero-card,
+      .disclosure-card {
+        padding: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header class="topbar">
+    <div class="wrap topbar-inner">
+      <div class="brand">Highline Connect</div>
+      <a class="back-link" href="index.html">← Back to Home</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="wrap">
+        <div class="hero-card">
+          <div class="eyebrow">Legal</div>
+          <h1>Contractor Disclosure</h1>
+          <p>
+            This Contractor Disclosure explains how Highline Connect may use
+            independent contractors, subcontractors, third-party technicians,
+            installers, or service providers in connection with certain services,
+            projects, consultations, or operational support.
+          </p>
+          <div class="meta">
+            Last Updated: <strong>March 6th, 2026</strong>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="content">
+      <div class="wrap">
+        <div class="grid">
+          <aside class="toc">
+            <h2>On this page</h2>
+            <a href="#general-disclosure">1. General Disclosure</a>
+            <a href="#independent-status">2. Independent Contractor Status</a>
+            <a href="#scope-of-work">3. Scope of Work</a>
+            <a href="#third-party-providers">4. Third-Party Providers</a>
+            <a href="#licensing-insurance">5. Licensing & Insurance</a>
+            <a href="#customer-communications">6. Customer Communications</a>
+            <a href="#payments">7. Payments & Billing</a>
+            <a href="#liability">8. Responsibility & Liability</a>
+            <a href="#changes">9. Changes to this Disclosure</a>
+            <a href="#contact">10. Contact Information</a>
+          </aside>
+
+          <article class="disclosure-card">
+            <section id="general-disclosure">
+              <h2>1. General Disclosure</h2>
+              <p>
+                Highline Connect may, in certain situations, engage independent contractors,
+                subcontractors, consultants, technicians, installers, or other third-party
+                service providers to assist with fulfilling services, handling specialized
+                project components, supporting operations, or serving customer needs.
+              </p>
+              <p>
+                Use of such providers may vary depending on project type, service area,
+                workload, scheduling, availability, technical specialization, and other
+                business considerations.
+              </p>
+            </section>
+
+            <section id="independent-status">
+              <h2>2. Independent Contractor Status</h2>
+              <p>
+                Unless expressly stated otherwise in writing, any contractor, subcontractor,
+                or third-party service provider engaged in connection with Highline Connect
+                services is an independent entity and is not an employee, partner, joint
+                venturer, or agent of the customer.
+              </p>
+              <p>
+                Where applicable, these parties may operate under separate business structures,
+                licenses, certifications, insurance policies, or contractual arrangements.
+              </p>
+              <div class="notice">
+                California note: if your actual business model has contractors operating under your
+                direct control, brand, schedule, pricing, and tools, have counsel review this language
+                so the page matches reality instead of cosplay.
+              </div>
+            </section>
+
+            <section id="scope-of-work">
+              <h2>3. Scope of Work</h2>
+              <p>
+                Contractors or third-party providers may be used for portions of a project
+                that include, without limitation, installation work, field services, technical
+                support, consultations, inspections, repair work, onboarding, customer follow-up,
+                administrative support, or other project-related services.
+              </p>
+              <p>
+                The specific scope of any work performed will depend on the service requested,
+                the terms of any applicable estimate or agreement, and the operational structure
+                used for the project.
+              </p>
+            </section>
+
+            <section id="third-party-providers">
+              <h2>4. Third-Party Providers</h2>
+              <p>
+                Highline Connect may also use third-party software providers, communication
+                platforms, hosting providers, scheduling systems, payment processors, CRM tools,
+                or other vendors to support its business and customer interactions.
+              </p>
+              <p>
+                These providers may process limited information as necessary to perform their
+                functions. Use of such providers may also be subject to their own terms,
+                privacy policies, and service conditions.
+              </p>
+            </section>
+
+            <section id="licensing-insurance">
+              <h2>5. Licensing & Insurance</h2>
+              <p>
+                Where services require licensing, certification, insurance, or other professional
+                qualifications, Highline Connect may seek to work with providers believed to be
+                appropriately qualified for the services involved.
+              </p>
+              <p>
+                However, customers are encouraged to request and independently confirm any specific
+                licensing, bonding, insurance, or credentialing information that may be relevant
+                to a particular project or jurisdiction.
+              </p>
+            </section>
+
+            <section id="customer-communications">
+              <h2>6. Customer Communications</h2>
+              <p>
+                By contacting Highline Connect or requesting services, you acknowledge that
+                communications relating to your inquiry, quote, scheduling, service coordination,
+                or project fulfillment may be handled by Highline Connect personnel and/or
+                appropriate independent contractors or third-party providers involved in the work.
+              </p>
+              <p>
+                Such communications may occur by phone, email, text message, or other reasonable
+                business channels, subject to applicable law and your communication preferences.
+              </p>
+            </section>
+
+            <section id="payments">
+              <h2>7. Payments & Billing</h2>
+              <p>
+                Unless otherwise stated in writing, billing, payment collection, invoicing, and
+                customer account coordination may be handled directly by Highline Connect and/or,
+                in some cases, by an authorized service provider or project partner, depending on
+                the structure of the engagement.
+              </p>
+              <p>
+                Any payment terms, refund terms, scope limitations, or project-specific obligations
+                should be reviewed in the applicable proposal, invoice, estimate, or service agreement.
+              </p>
+            </section>
+
+            <section id="liability">
+              <h2>8. Responsibility & Liability</h2>
+              <p>
+                Highline Connect makes reasonable efforts to coordinate services and work with
+                appropriate providers, but specific responsibilities, warranties, guarantees,
+                and liability limitations may be governed by separate written agreements,
+                project terms, estimates, or contractor-specific documentation.
+              </p>
+              <p>
+                Nothing on this page creates a separate warranty, guarantee, employment relationship,
+                partnership, or assumption of obligations beyond what is expressly agreed to in writing.
+              </p>
+            </section>
+
+            <section id="changes">
+              <h2>9. Changes to this Disclosure</h2>
+              <p>
+                Highline Connect may update this Contractor Disclosure from time to time to reflect
+                changes in operations, services, business structure, or legal requirements. Any revised
+                version will be posted on this page with an updated effective date or last updated date.
+              </p>
+            </section>
+
+            <section id="contact">
+              <h2>10. Contact Information</h2>
+              <p>
+                If you have questions regarding this Contractor Disclosure, please contact:
+              </p>
+              <p>
+                <strong>Highline Connect</strong><br />
+                Email: <a href="mailto:info@highlineconnect.com">info@highlineconnect.com</a><br />
+              </p>
+            </section>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="wrap">
+      © <span id="year"></span> Highline Connect. All rights reserved.
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
